@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner {
+	background-image: url("../images/banner.png");
+	height: 1.3em;
+	text-align: center;
+	/* background-color: #2b2b2b; */
+}
+
+.sideImage {
+	background-image: url(../images/html_css_alpha.png);
+	height: 465px;
+	width: 49px;
+	position: fixed;
+	right: 3em;
+	margin-left: 1em;
+}
+
+.htmlImage {
+	float: left;
+	background-image: url("../images/html.PNG");
+	width: 64px;
+	height: 64px;
+	margin-right: 5px;
+}
+
+.cssImage {
+	float: left;
+	background-image: url("../images/css.PNG");
+	width: 64px;
+	height: 64px;
+	margin-right: 5px;
+}
+
+.htmlImage:hover {
+	opacity: 0.5;
+}
+
+
+.cssImage:hover {
+	opacity: 0.5;
+}

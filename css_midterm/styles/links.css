@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	color: #5a8f29;
+	text-decoration: none;
+	font-family: 'Boogaloo', cursive;
+}
+
+a:hover {
+ 	color: #C7E6AA !important;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #5a8f29;
+	text-decoration: none;
+}
+
