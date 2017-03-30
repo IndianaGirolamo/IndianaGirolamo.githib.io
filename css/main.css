@@ -6,8 +6,8 @@ html, body, h1, h2, h3 nav, ul, li, header, p, div {
 }
 
 html {
-	width: 106.5%;
-	min-width: 106.5%;
+	width: 100%;
+	min-width: 100%;
 	background-color: rgb(245,245,245);
 	/* background-color: #D5E1DD; */
 	font-size: 1em;
@@ -17,8 +17,10 @@ html {
 
 body {
 	/* background-color: inherit; */
-	width: 95%;
-	min-width: 95%;
+	width: 99.9%;
+	min-width: 99.9%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
