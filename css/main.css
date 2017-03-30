@@ -44,11 +44,13 @@ p {
 nav {
 	position: fixed; 
 	top: 0;
-	left:0;
-	right: 0;
+	left: 1%;
+	right: 1%;
 	background-color: #F7F3E8;
-	padding: .5%;
-	margin: .5%;
+	padding: 10px;
+	margin: 10px; 
+	overflow: hidden;
+
 }
 
 
@@ -57,12 +59,14 @@ nav ul {
 	display: inline-block;
 	text-align: center;
 	width: 99%;
+	
 
 }
 
 nav ul li {
 	display: inline-block;
 	text-align: center;
+	
 
 	
 }
