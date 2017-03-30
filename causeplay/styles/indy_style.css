@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "League Gothic";
+	src: url(../fonts/leaguegothic-regular-webfont.woff)
+}
+
+
+/* Parameters for the entire HTML Document */
+
+html {
+	margin: 0;
+	padding: 0;
+  font-family: "League Gothic", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgb(43,62,80);
+  font-size: 1em;
+}
+
+
+body {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #4e5d6c;
+}
+/* end Parameters for the HTML Document */
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	margin: 2px;
+}
+.nav {
+  background-color: #4e5d6c;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+	text-align: center;
+	color: rgb(235,235,235);
+	letter-spacing: 7px;
+    margin: 0.67em 0;
+    font-family: "League Gothic";
+}
+
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+	color: rgb(235,235,235);
+    margin: 0.67em 0;
+    font-family: "League Gothic";
+	letter-spacing: 1.4px;
+}
+
+p {
+	text-align: center;
+	color: lightgray;
+	font-size: 2rem;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+ 
+.smallImg {
+ width: 25%;
+height: auto;
+margin-right: 75%;	
+}
+
+.medImg {
+ width: 65%;
+height: auto;	
+}
+
+#imgCenter  {
+text-align: center;
+	
+}
+
+.left_align {
+	text-align: left;
+}
+#mainImage {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.navbar {
+	max-width: 100%;
+	
+}
+
+ul {
+	/* display:table; */
+	width: 100%; 
+	height: 100%;
+	list-style-type: none;
+	border-bottom: 2px dotted black;
+	
+}
+
+ul li {
+	font-size: 1.3rem;
+	/* display: table-cell; */
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul li a {
+	text-decoration: none;
+	color: rgb(235,235,235);
+	margin-right: 7%;
+	
+}
+
+a:link {
+	color: rgb(235,21,19);
+}
+
+a:hover {
+	color: rgb(19,21,235);
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px rgb(235,21,19) ;
+}
+
+
+
+/* Everything below is not intended for the index page */
+
+.col-lg-5 {
+	width: 98%;
+	margin-top: 50px;
+	background-color: rgb(78,93,108);
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	padding-left: 1%;
+	padding-right: 1%;
+	
+}
+
+.col-lg-5 p {
+	text-align: left;
+}
+
+
+/* This is borrowed CSS from Mark Glissmann from Codepen.io. Thanks Mark! :) */
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 2px;
+	-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+#photo-gallery ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+
+#photo-gallery li  {
+	display: block;
+}
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
+
+#photo-gallery {
+  width: 100%;
+}
+
+#smallerImage {
+	margin: 0.67em 0;
+	width: 35%;
+	float: left; 
+}
+
+#diffColor {
+	color: indianred;
+}
+
+#returnTop {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#returnTop img {
+width: 35%;
+}
+
+#returnTop p {
+	color: rgb(235,21,19);
+	text-align: center;
+	display: inline;
+	font-size: 1.3rem;
+}
+
+
+#returnTop a {
+text-decoration: none;
+}
