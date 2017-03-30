@@ -3,7 +3,7 @@
 
 @font-face {
 	font-family: "League Gothic";
-	src: url(../fonts/leaguegothic-regular-webfont.woff)
+	src: url(fonts/leaguegothic-regular-webfont.woff)
 }
 
 
@@ -22,6 +22,7 @@ html {
 
 body {
 	max-width: 80%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #4e5d6c;
@@ -164,7 +165,7 @@ a:hover {
 
 /* This is borrowed CSS from Mark Glissmann from Codepen.io. Thanks Mark! :) */
 #photos {
-  opacity: .88;
+  /* opacity: .88; */
 }
 
 #photos img {
@@ -235,7 +236,7 @@ width: 35%;
 #returnTop p {
 	color: rgb(235,21,19);
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	font-size: 1.3rem;
 }
 
