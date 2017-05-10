@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("nav.css");
+
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("images.css");
+
+@import url("links.css");
+
+@import url("animation.css");
+
+
+@media only screen and (min-width: 200px) and (max-width: 667px) { 
+	
+	/*  styling for iphone portrait and landscape */
+	
+html {
+	width: 667px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(26,38,50);
+	font-size: 100%;
+}
+
+.about {
+	width: 418px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.sidebar { /* the sidebar practically was unreadable on the side of an iphone screen, so I moved it down below the main element. While it isn't consistent with other portions of the page, its all that can be done with the limited amount of pixel space that a smartphone provides */ 
+	width: 400px;
+	margin: 0 auto;
+	background-color: rgba(21,33,44,1.00); 
+	border-radius: 7.5px;
+}
+.footerWrapper {
+	clear: both;
+	width: 418px;
+	margin: 0 auto;
+}
+}

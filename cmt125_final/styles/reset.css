@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Reset */
+
+html, body, h1, h2, h3,  h4, a, p .mainWrapper, .navWrapper, .sidenav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 35px;
+}
+

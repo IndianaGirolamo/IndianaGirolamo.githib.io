@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* Main CSS Document */
+
+/* Import all styles */ 
+
+
+@import url("ipad.css");
+
+@import url("iphone.css");
+
+@import url("nav.css");
+
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("images.css");
+
+@import url("links.css");
+
+@import url("animation.css");
+/* end import */ 
+
+@media only screen and (min-width: 1200px) {
+    /* styling for tablets and desktop; inspired by Twiter's dark theme. */
+
+
+html {
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(26,38,50);
+	font-size: 100%;
+}
+
+.about {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main {
+	width: 900px;
+	float: right;
+}
+
+
+
+
+.footerWrapper {
+	clear: both;
+	width: 1100px;
+	margin: 0 auto;
+}
+	.logo:hover {
+		transition: opacity .3s;
+		opacity: 0.5;
+	}
+	
+}
+

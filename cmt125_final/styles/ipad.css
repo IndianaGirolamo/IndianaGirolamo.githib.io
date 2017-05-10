@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("nav.css");
+
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("images.css");
+
+@import url("links.css");
+
+@import url("animation.css");
+
+
+@media only screen and (min-width: 668px) and (max-width: 1199px) { 
+	
+	/* Styling for ipad portrait and landscape.  What is really neat about tablets is that their screen resolution is at a pixel count where they can have an almost 1:1 desktop experience. While some elements had to be pushed in to meet some tablet's resolution, it's still a fairly big screen.  */
+html {
+	width: 844px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(26,38,50);
+	font-size: 100%;
+}
+
+.about {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main {
+	width: 506.88px;
+	float: right;
+}
+
+.sidebar {
+	float: left;
+	width: 210.44px;
+	margin-left: 20px;
+	background-color: rgba(21,33,44,1.00); 
+	border-radius: 7.5px;
+}
+.footerWrapper {
+	clear: both;
+	width: 615.0144px;
+	margin: 0 auto;
+}
+}

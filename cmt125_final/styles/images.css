@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document for all images (excluding icons) */
+
+.logo {
+	float: left;
+	width: 64px;
+	height: 64px;
+}
+
+.banner {
+	margin-top: 15px;
+}

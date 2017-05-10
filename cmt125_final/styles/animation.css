@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document for all animations */
+
+
+a {
+	color: rgba(37,132,170,1.00); 
+	text-decoration: none;
+	outline: none;
+}
+
+.active {
+	border-bottom: 1px solid rgb(37,132,170);
+	padding-bottom: 10px;
+	color: rgba(143,198,208,1.00);
+}
+
+
+.mainNav a:hover { /* hover effect inspired by disqus' front web page. */ 
+	transition-property: color;
+	border-bottom: 1px solid rgb(37,132,170);
+	padding-bottom: 10px;
+	color: rgba(143,198,208,1.00);
+	transition-duration: 0.65s;
+}
+
+.normal a:hover { /* hover effect for everything else */ 
+	transition: background-color .65s;
+	background-color: black;
+}
+
+@keyframes display {
+	0% {opacity: 0}
+	50% {opacity: .5}
+	100% {opacity: 1}
+}
+
+
+@keyframes web1 {
+	0% {opacity: 1}
+	25% {opacity: .7}
+	50% {opacity: .35}
+	75% {opacity: .7}
+	100% {opacity: 1}
+}
+
+@keyframes web2 { /* This animation can sum up a good chunk of 1990s web design */ 
+	0% {background-size: 16px 16px}
+	50% {background-size: 32px 32px}
+	100% {background-size: 16px 16px}
+}
+
+@keyframes web3 { 
+	0% { -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform:rotate(0deg)}
+	25% {-ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform:rotate(90deg)}
+	50% {-ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform:rotate(180deg)}
+	75% {-ms-transform: rotate(270deg); -webkit-transform: rotate(270deg); transform:rotate(270deg)}
+	100% {-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform:rotate(360deg)}
+}
+
+@keyframes web4 { 
+	0% {background-image: url(../images/web4.png)}
+	25% {background-image: url(../images/web4_25.png)}
+	50% {background-image: url(../images/web4_50.png)}
+	75% {background-image: url(../images/web4_75.png)}
+	100% {background-image: url(../images/web4_100.png)}
+}
+
+
+@keyframes homeLink { 	
+	0% {background-color: maroon;}
+	33% {background-color: lightcyan;}
+	66% {background-color: darkseagreen;}
+	100% {background-color: maroon;}
+}
+
+@keyframes newsLink { /* This is suppose to be a stamp being put on the mail. 16px makes it hard to see, though. */
+	0% {background-image: url(../images/newsletter.png) }
+	20% {background-image: url(../images/newsletter_25.png) }
+	40% {background-image: url(../images/newsletter_50.png) }
+	60% {background-image: url(../images/newsletter_75.png) }
+	80% {background-image: url(../images/newsletter_100.png) }
+	100% {background-image: url(../images/newsletter_100.png) }
+}
+
+@keyframes aboutLink {
+	0%    {background-image: url(../images/question_empty.png) }
+	12.5% {background-image: url(../images/question_quarter.png) }
+	25%   {background-image: url(../images/question_half.png) }
+	37.5% {background-image: url(../images/question_3quarter.png) }
+	50%   {background-image: url(../images/question.png) }
+	62.5% {background-image: url(../images/question_3quarter.png) }
+	75%	  {background-image: url(../images/question_half.png) }
+	87.5% {background-image: url(../images/question_quarter.png) }
+	100%  {background-image: url(../images/question_empty.png) }
+}
+
+@keyframes contactLink {
+	0% { -ms-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform:rotate(20deg)}
+	50% {-ms-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); transform:rotate(-20deg)}
+	100% { -ms-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform:rotate(20deg)}
+}
+
+@keyframes sedLink {
+	0% { -ms-transform: skew(5deg, 5deg); -webkit-transform: skew(10deg, 10deg); transform:skew(10deg, 10deg)}
+	50% {-ms-transform: skew(-5deg, -5deg); -webkit-transform: skew(-10deg, -10deg); transform:skew(-10deg, -10deg)}
+	100% { -ms-transform: skew(5deg, 5deg); -webkit-transform: skew(10deg, 10deg); transform:skew(10deg, 10deg)}
+}
+
+@keyframes cupid { /* I found an example animation of a heartbeat at https://codepen.io/jlong/pen/KBhDf */ 
+	0% {background-size: 16px}
+	14% {background-size: 20.8px}
+	28% {background-size: 16px}
+	42% {background-size: 20.8px}
+	72% {background-size: 16px}
+}
+
+html {
+	animation-name: display;
+	animation-duration: .8s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+span[class="web1"] {
+	animation-name: web1;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+span[class="web2"] {
+	animation-name: web2;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+span[class="web3"] {
+	animation-name: web3;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+span[class="web4"] {
+	animation-name: web4;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+
+.homeLink {
+	animation-name: homeLink;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.newsLink { 
+	animation-name: newsLink;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+.aboutLink {
+	animation-name: aboutLink;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+
+.contactLink {
+	animation-name: contactLink;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+.sedLink {
+	animation-name: sedLink;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	
+}
+
+.cupidLink {
+	animation-name: cupid;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	
+}

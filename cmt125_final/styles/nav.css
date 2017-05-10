@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document for Navigation bars */
+
+
+.navWrapper {
+	width: 1100px;
+}
+
+
+.mainNav {
+	margin-top: 50px;
+	margin-bottom: 75px; 
+}
+.mainNav ul {
+	display: table; /* easy way to horizontally align the navbar properly */ 
+}
+
+.mainNav li {
+	display: table-cell;
+	padding: 6px 140px 10px 50px; /* spread out the navbar */
+}
+
+.regular ul {
+	display: table;
+}
+
+.regular li {
+	display: table-cell;
+	text-align: left;
+	padding: 6px 40.8px 10px 0;
+}
+
+
+
+.sidebar {
+	float: left;
+	width: 255px;
+	margin-left: 20px;
+	background-color: rgba(21,33,44,1.00); 
+	border-radius: 7.5px;
+}
+
+
+.bottomNav ul {
+	display: table;	
+}
+
+.bottomNav li {
+	display: table-cell;
+	padding: 25px 140px 10px 50px; /* spread out the navbar */
+}
+
+
+.navWrapper {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media only screen and (min-width: 668px) and (max-width: 1199px) {
+.navWrapper {
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.bottomNav li {
+	display: table-cell;
+	text-align: left;
+	padding: 25px 90.5px 10px 0px;
+}
+
+.regular li { /* it made much more sense to have these links as a block in table mode to preserve space, and keep up with 'overall' consistency. If table / table-cell was used, the font would have needed to be changed and the size would need to be lowered. After switching back and forth, a block-style nav for this particular section worked best.*/ 
+	display: block;
+	text-align: left;
+	padding: 6px 5px 10px 0px;
+	text-indent: 0;
+}	
+	
+	.regular ul {
+		padding: 0;
+		list-style-type: none;
+		text-indent: 0px;
+	}
+	
+	.regular li a {
+	font-size: 100%;
+	}
+	
+	.mainNav li {
+	display: table-cell;
+	text-align: left;
+	padding: 25px 90.50px 10px 50px;
+}
+	
+}
+
+
+@media only screen and (max-width: 667px) {
+	
+.bottomNav li {
+	display: block;
+	text-align: left;
+	padding: 25px 0px 10px 0px;
+}
+
+	
+.regular ul {
+		padding: 0;
+		list-style-type: none;
+		text-indent: 0px;
+	}
+
+.regular li {
+	display: block;
+	text-align: left;
+	padding: 6px 5px 10px 0px;
+	text-indent: 0;
+
+}	
+	
+.regular li a {
+	font-size: 100%;
+	}
+	
+.mainNav li {
+	display: block;
+	text-align: left;
+	padding: 25px 0px 10px 0px;
+}
+	
+	
+}
