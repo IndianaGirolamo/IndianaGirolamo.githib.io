@@ -16,7 +16,6 @@ a {
 .active {
 	border-bottom: 1px solid rgb(37,132,170);
 	padding-bottom: 10px;
-	padding-left: 2.5px;
 	color: rgba(143,198,208,1.00);
 }
 
@@ -26,7 +25,6 @@ a {
 	transition-duration: 0.65s;
 	border-bottom: 1px solid rgb(37,132,170);
 	padding-bottom: 10px;
-	padding-left: 2.5px;
 	color: rgba(143,198,208,1.00);
 	
 
