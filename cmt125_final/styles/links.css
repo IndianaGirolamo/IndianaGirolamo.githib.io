@@ -6,26 +6,29 @@ span {
 	margin-left: 5px;
 	line-height: 16px;
 	display: inline-block;
-} /* Google Chrome has a 'bug' in which the span tag doesn't render like it does in the rest of the web browsers. By default, the span tag was moving to the next line. This was fixed by explicitly putting a line-height in the span code and making the display inline-block. In order for inline-block to work, a &nsbp; needed to be added in between the span tags. */
+} /* Google Chrome has a 'bug' in which the span tag doesn't render like it does in the rest of the web browsers (Firefox, IE, Edge, etc). By default, the span tag was moving to the next line. This was fixed by explicitly giving span a line-height and making the display inline-block. In order for inline-block to work, a &nsbp; needed to be added in between the span tags in the HTML document. */
 
 a {
-	color: rgba(37,132,170,1.00); 
+	color: rgba(37,132,170,1.00);
 	text-decoration: none;
 }
 
 .active {
 	border-bottom: 1px solid rgb(37,132,170);
 	padding-bottom: 10px;
+	padding-left: 2.5px;
 	color: rgba(143,198,208,1.00);
 }
 
 
-.mainNav a:hover { /* hover effect inspired by disqus' front web page. */ 
+.mainNav a:hover, .bottomNav a:hover { /* hover effect inspired by disqus' front web page. */ 
 	transition-property: color;
 	transition-duration: 0.65s;
 	border-bottom: 1px solid rgb(37,132,170);
 	padding-bottom: 10px;
+	padding-left: 2.5px;
 	color: rgba(143,198,208,1.00);
+	
 
 }
 
@@ -34,63 +37,7 @@ a {
 	background-color: black; 
 }
 
-span[class="web1"] {
-	width: 16px;
-	background: url(../images/web.png) center no-repeat;
-	padding: 0 2px;
+.bottomNav a:hover {
+	padding-left: 2.5px;
 }
 
-span[class="web2"] {
-	width: 16px;
-	background: url(../images/web2.png) center no-repeat;
-	padding: 8px 8px;
-}
-
-span[class="web3"] {
-	width: 16px;
-	background: url(../images/web3.png) center no-repeat;
-	padding: 0 8px;
-}
-span[class="web4"] {
-	width: 16px;
-	background: url(../images/web4.png) center no-repeat;
-	padding: 0 8px;
-}
-
-
-.homeLink {
-	width: 16px;
-	background: url(../images/home_default.png) center no-repeat;
-	padding: 2px 3px;
-}
-
-
-.newsLink {
-	width: 16px;
-	background: url(../images/newsletter.png) center no-repeat;
-	padding: 2px 3px;
-}
-
-.aboutLink {
-	width: 16px;
-	background: url(../images/question.png) center no-repeat;
-	padding: 2px 3px;
-}
-
-.contactLink {
-	width: 16px;
-	background: url(../images/contact.png) center no-repeat;
-	padding: 2px 3px;
-}
-
-.sedLink {
-	width: 16px;
-	background: url(../images/pen.png) center no-repeat;
-	padding: 2px 3px;
-}
-
-.cupidLink {
-	width: 16px;
-	background: url(../images/heart.png) center no-repeat;
-	padding: 2px 3px;
-}

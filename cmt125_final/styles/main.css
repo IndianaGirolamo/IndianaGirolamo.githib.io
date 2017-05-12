@@ -49,13 +49,29 @@ html {
 
 .footerWrapper {
 	clear: both;
-	width: 1100px;
+	width: 1160px;
 	margin: 0 auto;
+	opacity: .9;
+	
 }
 	.logo:hover {
 		transition: opacity .3s;
 		opacity: 0.5;
 	}
 	
+
+.footerMain { /* Each section that wasn't the main section I put a different background behind it. This ensured to the viewer that it was a different part of the page. */
+	background-color: rgba(21,33,44,1.00); 
+	margin-bottom: 30px;
+	border-radius: 7.5px;
+	
 }
 
+.footerMain p {
+	margin: 0 10px;
+}
+	
+	
+	
+	
+	} /* end bracket for media */

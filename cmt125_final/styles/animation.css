@@ -2,32 +2,6 @@
 /* CSS Document for all animations */
 
 
-a {
-	color: rgba(37,132,170,1.00); 
-	text-decoration: none;
-	outline: none;
-}
-
-.active {
-	border-bottom: 1px solid rgb(37,132,170);
-	padding-bottom: 10px;
-	color: rgba(143,198,208,1.00);
-}
-
-
-.mainNav a:hover { /* hover effect inspired by disqus' front web page. */ 
-	transition-property: color;
-	border-bottom: 1px solid rgb(37,132,170);
-	padding-bottom: 10px;
-	color: rgba(143,198,208,1.00);
-	transition-duration: 0.65s;
-}
-
-.normal a:hover { /* hover effect for everything else */ 
-	transition: background-color .65s;
-	background-color: black;
-}
-
 @keyframes display {
 	0% {opacity: 0}
 	50% {opacity: .5}

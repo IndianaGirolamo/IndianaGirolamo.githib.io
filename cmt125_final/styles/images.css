@@ -3,10 +3,73 @@
 
 .logo {
 	float: left;
-	width: 64px;
-	height: 64px;
+	width: 600px;
+	height: 100px;
+	margin-left: 10px;
 }
 
 .banner {
 	margin-top: 15px;
+}
+
+
+span[class="web1"] { 
+	width: 16px;
+	background: url(../images/web.png) center no-repeat;
+	padding: 0 2px;
+}
+
+span[class="web2"] {
+	width: 16px;
+	background: url(../images/web2.png) center no-repeat;
+	padding: 8px 8px;
+}
+
+span[class="web3"] {
+	width: 16px;
+	background: url(../images/web3.png) center no-repeat;
+	padding: 0 8px;
+}
+span[class="web4"] {
+	width: 16px;
+	background: url(../images/web4.png) center no-repeat;
+	padding: 0 8px;
+}
+
+
+.homeLink {
+	width: 16px;
+	background: url(../images/home_default.png) center no-repeat;
+	padding: 2px 3px;
+}
+
+
+.newsLink {
+	width: 16px;
+	background: url(../images/newsletter.png) center no-repeat;
+	padding: 2px 3px;
+}
+
+.aboutLink {
+	width: 16px;
+	background: url(../images/question.png) center no-repeat;
+	padding: 2px 3px;
+}
+
+.contactLink {
+	width: 16px;
+	background: url(../images/contact.png) center no-repeat;
+	padding: 2px 3px;
+}
+
+.sedLink {
+	width: 16px;
+	background: url(../images/pen.png) center no-repeat;
+	padding: 2px 3px;
+}
+
+.cupidLink {
+	width: 16px;
+	background: url(../images/heart.png) center no-repeat;
+	padding: 2px 3px;
 }
