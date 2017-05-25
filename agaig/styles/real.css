@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 * {
 	box-sizing: border-box;
 }
@@ -24,13 +22,12 @@ body {
 	max-width: 69%;
 	min-width: 36%;
 	min-height: 35%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto; /* center page */
 	background-color: rgb(217,150,61);
-	box-shadow: 5px 5px 5px 8px #000;
+	box-shadow: 3px 3px 3px 4px #000;
 	color: rgb(82,49,118);
 	font-weight: bold;
-	
-	
 }
 
 
@@ -39,16 +36,6 @@ header img {
 	max-height: 17%;
 	padding: 1%;
 	float: left;
-	
-	
-}
-
-.headAlign {
-	text-align: center;
-	font-family: 'Pangolin', cursive;
-	font-size: 2.5em;
-	display: inline;
-	padding-right: 1%;
 }
 
 a {
@@ -56,69 +43,25 @@ a {
 	text-align: center;
 }
 
-
-
-.nav {
-	max-width: 94%;
-	margin: 1% auto;
-	text-align: center;
-	font-size: 1.5rem;
-	line-height: 1.5;
-}
-	
-
 header {
 	max-height: 15%;
 	max-width: 100%;
+	margin-bottom: 15%; /* Ensure that header does not overlap with the navbar.*/
 }
-
- /* header h1 {
-	display: table-cell;
-	font-family: 'Pangolin', cursive;
-	font-size: 4em;
-	vertical-align: middle; 
-	
-} */
 
 h2 {
 	font-size: 2em;
 }
 
-.container h3, h2 {
-	text-align: center;
-	padding: 3%;
-	
-}
 
 p {
 	font-size: 1.3em;
 	margin: 0 15px;
 	padding-bottom: 15px;
-	
-}
-
-.strong {
-	text-align: center; 
-	font-weight: bold;
-}
-
-.container a {
-	font-size: 1.5em;
-}
-
-.center {
-	text-align: center;
-	margin: 0;
-	clear: both;
 }
 
 footer {
 	text-align: center;
-}
-
-.container .center h3 
-{
-	font-size: 2rem;
 }
 
 table {
@@ -129,27 +72,11 @@ table {
 
 th {
 	width: 20%;
-	
-}
-
-.table {
-	max-width: 90%;
-	min-width: 30%;
-	
 }
 
 td {
 	font-size: 1.1rem;
 	margin-right: 1.5%;
-	
-}
-
-.small {
-	font-size: 1em;
-}
-
-.border {
-	border: medium double black 10px;
 }
 
 #links {
@@ -176,12 +103,12 @@ nav li {
 }
 
 nav {
-	border: solid 2px;
+	border: solid 1px;
 	margin: 0 10px 20px 10px;
-}
-
-.right {
-	text-align: right; 
+	max-width: 94%;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.5;
 }
 
 tbody {
@@ -190,4 +117,60 @@ tbody {
 
 h3 {
 	font-size: 2rem;
+}
+
+.headAlign {
+	text-align: center;
+	font-family: 'Pangolin', cursive;
+	font-size: 1.5em;
+	display: inline;
+	padding-right: 1%;
+}
+
+
+.container h3, h2 {
+	text-align: center;
+	padding: 3%;
+	
+}
+
+.strong {
+	text-align: center; 
+	font-weight: bold;
+}
+
+.container a {
+	font-size: 1.5em;
+}
+
+.center {
+	text-align: center;
+	margin: 0;
+	clear: both;
+}
+
+
+.container .center h3 {
+	font-size: 2rem;
+}
+
+
+
+.table {
+	max-width: 90%;
+	min-width: 30%;
+	
+}
+
+.small {
+	font-size: 1em;
+}
+
+.border {
+	border: medium double black 10px;
+}
+
+
+.right {
+	text-align: right; 
 }

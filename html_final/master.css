@@ -1,0 +1,406 @@
+/* CSS Reset */
+
+
+html, body, h1, h2, h3, main {
+	margin: 0;
+	padding: 0;
+	font-size: 1em; /* IE 8 doesn't recognize the 'rem' font size command. :( */ ;
+}
+
+h1, h2, h3, h4 {
+	font-family: italiana, italianaregular, sans-serif;
+}
+
+html {
+	font-family: 'open_sanscondensed_light', "Open Sans Condensed", serif;
+	letter-spacing: 0.8px;
+}
+
+/* Embedded CSS from specials.html */
+
+	.content {
+		padding-top: 10px;
+}
+
+	.content p {
+		margin-left: 10px;
+		
+}
+
+.content img {
+	width: 400px;
+	height: 288px;
+	float: right;
+}
+
+	#contact img {
+		border: #FF69B4;
+		float: right;
+		
+}
+
+	.aside {
+		float: left;
+		
+}
+/* end code from specials.html */
+
+
+	
+#contact img
+	{
+		border: #FF69B4;
+		float: right;
+	}
+.aside {
+		float: left;
+	}
+
+.main {
+	display: block;
+	width: 899px;
+	margin: 0 auto;	
+}
+
+html, body {
+	margin: 0;
+    padding: 0;
+	background: url("italian4.png"); 
+	background-attachment:fixed;
+}
+
+.nav {
+	width: 899px;
+	background-color: #564B3A; /* to test for width */
+}
+
+.nav ul {
+	background-color: #564B3A;
+	padding: 3px;
+	list-style-type: none;
+	display: table;		
+}
+
+.nav ul li {
+	text-decoration: none;
+	display: table-cell;
+	padding: 20px 0;
+}
+
+
+.nav ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: white; 
+	padding: 20px 29.5px;
+}
+
+.nav a:hover {
+	background-color: black;
+	border-color: black;
+}
+
+#social {
+	float: right;
+	clear: both;
+}
+
+.header {
+	width:900px;
+	height: 200px;
+}
+
+.aside {
+	padding-top: 30px;
+	float: left;
+	width: 420px;
+	color: white;
+	height: 370px;
+	text-align: left;
+}
+
+
+#socialImg {
+    height: 80px;
+	
+}
+
+	.footer {
+		padding-top: 60px;	
+		text-align: center;
+		color: white;
+		clear: both;
+		font-size: 0.8rem;
+		font-size: 0.8em;
+}
+
+
+
+#title {
+  background: rgb(77,32,21);
+  height: 100px;
+}
+
+#title h1 {
+	margin: 0 0 0 10px;
+	text-align: left;
+	color: #d6d6d6;
+	line-height: 90px;
+	font-size: 2.5rem;
+	font-size: 2.5em;
+}
+
+.aside h2 {
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+/* Added by Indiana */
+
+#header img {
+	width: 900px;
+	height: 180px;
+}
+
+
+#social img {
+	width: 30px;
+	height: 30px;
+}
+
+footer a:visited {
+	color: darkgray;
+}
+
+.main2 img {
+	width: 200px;
+	height: 180px;
+	margin-left: 280px; 
+	margin-top: 45px; 
+}
+
+input::placeholder {
+	font-style: italic;
+}
+
+#contactImage img {
+	width: 400px;
+	height: 300px; 
+	margin-top: 50px; 
+	float: right; 
+}
+
+.top {
+	text-align: right;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	margin-right: 10px; 
+}
+
+.top:hover {
+	opacity: .7;
+}
+
+.top a {
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+.top a:visited {
+	color: blue;
+}
+
+.top a:hover {
+	font-weight: normal;
+}
+
+.top img {
+	width: 32px;
+	margin-right: 20px;
+}
+
+.contentText {
+	margin-left: 10px;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.regular {
+	text-align: left;
+	list-style-type: circle;
+}
+
+.regular p {
+	font-size: 18px;
+}
+
+.menuHeader {
+	width: 900px;
+	height: 80px;
+	background-color: #564B3A;
+	margin-top: 50px;
+	clear: both;
+}
+
+.menuHeader h2 {
+	margin-left: 10px;
+	font-size: 2rem;
+	font-size: 2em;
+	text-align: left;
+	line-height: 75px;
+	color: #BFBFBF;
+}
+
+
+#starters {
+	width: 900px;
+	margin-top: -32px;
+	
+}
+
+#content p {
+	color: white;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-size: 1.2em;
+}
+
+
+#links {
+	margin-top: 5px;
+	margin-bottom: -20px;
+	display: block;
+	width: 900px;
+	text-align: center;
+}
+
+#links a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-size: 1.3em;
+	padding: 20px 10.6px;
+	display: block;
+ }  
+
+#links a:hover {
+	background-color: black;
+	border-color: black;
+	
+}
+
+.articleA {
+	float: left;
+	width: 435px;
+	color: white;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.articleA h2 {
+	margin-left: 10px;
+}
+
+
+.articleA img {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+#indexArticleFix { /* This is to fix a spacing issue with one of the articles on the index page */ 
+	margin-top: 15px;
+	
+}
+.articleB {
+	width: 435px;
+	float: right;
+	color: white;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.articleB h2 {
+	margin-left: 10px;
+}
+
+.articleB img {
+	width: 200px;
+	float: right;
+}
+
+.menuImage {
+	display: inline-block;
+	text-align: left;
+	margin-top: 15px;
+	
+}
+
+.menuImage img {
+	width: 200px;
+}
+
+#firstImage {
+	margin-left: -50px;
+	border: 1px solid black;
+}
+
+.rightAlign {
+	margin-left: 270px;
+}
+
+
+.footer2 {
+        width: 300px;
+        float: left;
+        color: white;
+        clear: both;
+    } 
+
+#map {
+	width: 450px;
+}
+
+.down {
+	margin-top: 90px;
+	margin-left: 10px;
+}
+
+
+.downB {
+	margin-top: 15px;
+	
+}
+
+.pullHeader {
+	margin-top: 10px;
+}
+
+
+input[type="radio"] {
+	margin-right: 10px;
+	}
+	
+	iframe {
+		margin-top: -25x;
+		margin-bottom: 15px;
+	}
+	
+
+	
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+   font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-style: italic;
+}
