@@ -1,6 +1,58 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end CSS Reset */
+
 * {
 	box-sizing: border-box;
 }
@@ -25,6 +77,15 @@ body {
 }
 
 
+header {
+	margin-bottom: 50px; /* Ensure that header does not overlap with the navbar.*/
+	margin-top: 10px; 
+}
+
+header h1 {
+	padding-top: 10px
+}
+
 header img {
 	width: 192px;
 	padding: 10px;
@@ -36,9 +97,7 @@ a {
 	text-align: left;
 }
 
-header {
-	margin-bottom: 50px; /* Ensure that header does not overlap with the navbar.*/
-}
+
 
 h2 {
 	font-size: 28px;
@@ -46,8 +105,14 @@ h2 {
 
 
 p {
-	margin: 0 15px;
+	font-family: Sansita;
+	margin: 15px;
 	line-height: 1.5;
+}
+
+strong {
+	font-family: Pangolin;
+	color: red;
 }
 
 footer {
@@ -89,10 +154,8 @@ a:hover {
 
 nav {
 	border: solid 1px;
-	margin: 0 10px 20px 10px;
-	max-width: 94%;
+	margin: 0 10px;
 	text-align: center;
-	font-size: 1.5rem;
 	line-height: 1.5;
 }
 
@@ -102,13 +165,12 @@ display: table;
 
 
 nav li {
-	display: table-cell;
-	margin: 10px;	
+	display: table-cell;	
 }
 
 nav ul li a {
 	font-size: 16px;
-	padding: 0 16px;
+	padding: 0 32px;
 }
 
 
@@ -118,6 +180,10 @@ tbody {
 
 h3 {
 	font-size: 24px;
+}
+
+span {
+	float: right;
 }
 
 .headAlign {
