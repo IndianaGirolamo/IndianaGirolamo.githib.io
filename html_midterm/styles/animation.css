@@ -1,0 +1,46 @@
+footer .sectionB { /* Thanks to Open Source Training for this reference. */
+    height: auto;
+    width: 300px;
+    float: left;
+	padding: 20px 20px 0 20px;
+	
+	 transition: all 0.1s ease-in-out 0s;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+}
+
+.icons img {
+	transition: all .1s ease-in-out 0s;
+    -moz-transition: all .1s ease-in-out 0s;
+    -webkit-transition: all .1s ease-in-out 0s;
+    -o-transition: all .1s ease-in-out 0s;
+	
+	 
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+	transform: scale(1);
+
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+
+.icons:hover img { /*create hover effect */
+    
+    z-index: 2;
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+	transform: scale(2);
+} 
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.sectionB .facebook {
+	padding-right: 30px; /* This is to prevent clipping with the edge of the div */
+}

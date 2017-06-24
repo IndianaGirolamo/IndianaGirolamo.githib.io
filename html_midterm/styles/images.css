@@ -1,0 +1,24 @@
+main img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.divpic img {
+	width: 90%;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.page img {
+	width: 250px;
+}
+
+.center img {
+	margin-right: 80px;
+}
+
+.section1 img {
+	border: 1px solid black; 
+}

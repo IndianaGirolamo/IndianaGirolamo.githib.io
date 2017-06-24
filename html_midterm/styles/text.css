@@ -1,0 +1,71 @@
+
+h1, h2, h3 {
+	color: #28B78D;
+	text-align: left;
+	font-family: Lora, monospace;
+	margin-left: 10px;
+	padding: 0;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 12px;
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 16px;
+	letter-spacing: 2px; /* This made the drop shadow text easier to read for all H2 tags */
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+main p {
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 20px;
+	font-family: lato, sans-serif;
+}
+
+aside p {
+	margin-bottom: 10px;
+}
+
+.divpic p {
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 1;
+}
+
+.section1 p {
+	margin: 10px 0 0 0;
+	padding: 0px;
+	line-height: 1.25;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+.center p {
+	margin-left: 10px;
+}
+
+.center h3 {
+	margin-left: 10px;
+}
+
+.note {
+	font-size: 12.8px;
+	/* margin-left: 10px; */ 
+}
+
+.note p {
+	text-align: left;
+}
+
+.sellPage h2, .sellPage h3 {
+	margin-left: 50px; 
+}

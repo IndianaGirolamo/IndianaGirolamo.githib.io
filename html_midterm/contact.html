@@ -2,8 +2,9 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Courgette|Lato" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 <meta charset="utf-8">
 <title>Historic Homes Realty</title>
 
@@ -18,11 +19,11 @@
 
  <!-- For some reason, there was a gap in between each LI tag, which made the links not rub up against each other. Reusing the code from the previous homework was ineffective at fixing the issue as well. Removing each closing LI tag fixed this issue, oddly enough. --> 
  <ul>
-	 <li> <a href="index.html"> Home </a> 
-	 <li> <a href="buy.html"> Buy </a> 
-	 <li> <a href="sell.html"> Sell </a> 
-	 <li> <a href="rent.html"> Rent </a> 
-	 <li> <a href="contact.html" class="active"> Contact </a> 
+	 <li> <a href="index.html"> Home </a> </li>
+	 <li> <a href="buy.html"> Buy </a> </li>
+	 <li> <a href="sell.html"> Sell </a> </li>
+	 <li> <a href="rent.html"> Rent </a> </li>
+	 <li> <a href="contact.html" class="active"> Contact </a> </li>
 </ul>
 	
 
@@ -30,29 +31,27 @@
 
 
 <header>
-<img src="banner.jpg" class="bannerPic" alt="banner"> 
+<img src="images/banner.jpg" class="bannerPic" alt="banner"> 
 
 	</header>  
 
 <aside>
 
-<!-- Note to Professor Banjo:
-The locations of these homes are made up; these exact houses do not exist in the towns below -->
  
 <h2> Featured Homes </h2>
 
 <div class="divpic">
-<img src="italian.jpg" alt="italianate home">
+<img src="images/italian.jpg" alt="italianate home">
 	<p> Italianate-style home in Salem, MA </p>
 </div>
 
 <div class="divpic">
-<img src="queen.jpg" alt="Queen Anne Victorian Home">
+<img src="images/queen.jpg" alt="Queen Anne Victorian Home">
 	<p> Victorian Queen-Anne style home in Lexington, MA </p>
 </div>
 
 <div class="divpic">
-<img src="greek.jpg" alt="Greek Revival Home">
+<img src="images/greek.jpg" alt="Greek Revival Home">
 	<p> Restored Greek-Revival style home in Burlington, MA </p>
 </div>
 
@@ -60,9 +59,13 @@ The locations of these homes are made up; these exact houses do not exist in the
 
 <main> 
 
-	<h2> Contact Us; don't be shy! </h2> 
 	
-	<p class="center"> <img src="groupresize.jpg"> <br />If you need any other assistance, please give us a call! </p> <br />
+	
+	<div class="center"> 
+
+	<h2> Contact Us; don't be shy! </h2> 
+
+	<p> <img src="images/groupresize.jpg"> <br />If you need any other assistance, please give us a call! </p> <br />
 	
 	<p class="center"> Ask for <b> 'Team History'! </b> </p> 
 	
@@ -73,6 +76,7 @@ The locations of these homes are made up; these exact houses do not exist in the
 		Salem, MA | 01915 <br />
 		978-123-4567
 	</h3> 
+	</div>
 	
 
 	
@@ -80,10 +84,22 @@ The locations of these homes are made up; these exact houses do not exist in the
 </main>
 
 <footer> 
-<br />
 
-<p class="note"> &#169; Indiana Girolamo | CMT 111 - HTML &amp; Dreamweaver | Midterm Spring 2017 </p> 
+<div class="sectionB" style="height: 100px;">
+	
+		
+			 <a href="#" target="_blank" class="icons"> <img src="images/social/facebook.png" alt="Facebook Logo"> </a> 
+		
+			 <a href="#" target="_blank" class="icons"> <img src="images/social/instagram.jpg" alt="Instagram"> </a> 
 
-	</footer> 
+			 <a href="#" target="_blank" class="icons"> <img src="images/social/twitter.jpg" alt="Twitter Logo"> </a> 
+
+			 <a href="#" target="_blank" class="icons"> <img src="images/social/youtube.png" alt="Youtube Logo"> </a> 
+	
+</div>
+
+
+</footer> 
+
 </body>
 </html>
