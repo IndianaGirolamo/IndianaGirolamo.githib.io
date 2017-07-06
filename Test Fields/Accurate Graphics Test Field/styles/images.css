@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) /* image adjustments for iPhone 6+, 6s+, and 7+ */ {
+	.container #painless {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 22%;
+	}
+
+	.main .sectionB img[src$="info.png"] {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	img[src$="roland2.png"] {
+		max-width: 736px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 175px;
+		margin-left: 15px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 114px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 100px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 120px;
+		margin-right: 10px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 736px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	
+	.container .footer .sectionB img {
+		width: 58px;
+		margin-left: -25px;
+	}
+	
+	.container .photos {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 736px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+	width: 150px;
+	height: 150px;
+}
+	
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-device-pixel-ratio: 2) /* Image adjustments for iPhone 6, 6s, 7 */ { 
+	
+		
+	.container #painless {
+		max-width: 667px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 22%;
+	}
+
+	img[src$="roland2.png"] {
+		max-width: 667px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 175px;
+		margin-left: 15px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 114px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 100px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 120px;
+		margin-right: 10px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 667px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	
+	.container .footer .sectionB img {
+		width: 50px;
+		margin-left: -25px;
+	}
+	
+	.container .photos {
+		max-width: 667px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 667px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+	width: 120px;
+	height: 120px;
+}
+	
+	
+}
+
+@media only screen and (aspect-ratio: 40/71) and (-webkit-device-pixel-ratio: 2) and (max-width: 568px) /* Specific Styling for iPhone 5, 5s, and SE */ {
+	
+	.container #painless {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 20%;
+	}
+	
+	.sectionB img[src$="info.png"] {
+		margin-bottom: 65px;
+	}
+
+	img[src$="roland2.png"] {
+		max-width: 568px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 124px;
+		margin-right: 22px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 71px;
+		margin-right: 19px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 63px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 83px;
+		margin-right: 17px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 568px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	.container .footer {
+		margin-top: 25px;
+	}
+	
+	.container .footer .sectionB img {
+		width: 40px;
+		margin-left: -25px;
+	}
+	
+	.container .photos {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 568px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+	width: 104px;
+	height: 104px;
+}
+}
+
+@media /* Default Desktop */ {
+.header img {
+	width: 350px;
+	margin-left: 10px;
+}
+
+.sectionB [src$="info.png"] {
+	margin-bottom: 150px;
+	margin-top: -25px;
+}
+
+#painless img {
+	vertical-align: middle; 
+	padding: 10px 0;
+	width: 175px;
+}
+
+.contactIcons img {
+	vertical-align: middle;
+	padding: 10px 0;
+	width: 200px;
+	display: inline-block;
+}
+
+.contactIcons img:hover {
+	transition: all .5s;
+	opacity: .5;
+	
+	-moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+	transform: scale(.95);
+}
+
+.footer .sectionB img {
+	float: right;
+	padding: 0 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+.servicesA img {
+	float: right;
+	width: 200px;
+}
+
+.servicesA [src$="mouse.png"] {
+	margin-top: 15px;
+}
+
+/* .servicesA [src$="vinyl.png"] {
+	margin-top: 0px;
+} */
+
+ .servicesA [src$="cutter.png"] {
+	margin-top: -25px;
+} 
+
+.servicesA [src$="finish.png"] {
+	margin-top: -6px;
+}
+
+[src$="roland2.png"] {
+	width: 1200px;
+}
+
+[src$="info.png"] {
+	float: right;
+}
+
+[src$="als.jpg"] {
+	width: 1200px;
+}
+
+[src$="desks.jpg"] {
+	margin-top: 90px; 
+	width: 1200px;
+}
+
+[src$="officePano.jpg"] {
+	margin-top: 90px;
+	width: 1200px;
+}
+
+[src$="rolandInk.jpg"] {
+	margin-top: 90px;
+	width: 1200px;
+}
+
+
+/* Below is for the photo gallery in the examples.html page */
+
+.photos {
+	width: 1200px;
+	margin-left: -83px;
+	/* margin: 0 auto; */
+}
+
+.photos img {
+	width: 250px;
+	height: 250px;
+	float: left;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.photos img:hover {
+	transition: all .5s;
+	opacity: .5;
+		
+	-moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+	transform: scale(.95);
+}
+
+
+.photo-gallery ul {
+	list-style: none;
+	/* margin: 0px auto; */
+	display: block;
+}
+
+.photo-gallery li {
+	display: block;
+}
+
+.photo-gallery li img {
+	width: 250px;
+	height: 250px;
+	margin: 10px 3px;
+}
+ /* End Photo Gallery Code */
+}

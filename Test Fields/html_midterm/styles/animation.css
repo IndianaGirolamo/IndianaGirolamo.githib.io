@@ -1,0 +1,93 @@
+
+@media only screen and (aspect-ratio: 40/71) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE */ {
+	
+	.sectionB .icons:hover img { /* disable animations for mobile */ 
+		z-index: 2;
+    	-moz-transform: scale(.75);
+    	-webkit-transform: scale(.75);
+    	-o-transform: scale(.75);
+		transform: scale(.75);
+	}
+	
+	
+	.sectionB .icons img {
+		
+	height: 32px;
+	width: 32px;
+	-moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+	transform: scale(1);
+	}
+	
+	body footer .sectionB {
+		height: 65px;
+		padding: 5px 5px 0 5px; 
+	}
+	
+}
+
+@media /* Desktop */ {
+
+footer .sectionB { /* Thanks to Open Source Training for this reference. */
+    height: 250px;
+    width: 300px;
+    float: left;
+	padding: 20px 20px 0 20px;
+	
+	 transition: all 0.1s ease-in-out 0s;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+}
+
+.icons img {
+	transition: all .1s ease-in-out 0s;
+    -moz-transition: all .1s ease-in-out 0s;
+    -webkit-transition: all .1s ease-in-out 0s;
+    -o-transition: all .1s ease-in-out 0s;
+	
+	 
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+	transform: scale(1);
+
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+
+.icons:hover img { /*create hover effect */
+    
+    z-index: 2;
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+	transform: scale(2);
+} 
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+ .sectionB .facebook {
+	padding-right: 30px; /* This is to prevent clipping with the edge of the div */
+} 
+}
+
+@keyframes welcomePage {
+	0% {opacity: 0;}
+	
+	100% {opacity: 1;}
+}
+
+
+html {
+	animation-name: welcomePage;
+	animation-duration: .7s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+	

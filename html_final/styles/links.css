@@ -1,0 +1,32 @@
+/* links for Kent's Ristorante */
+
+footer a:visited {
+	color: darkgray;
+}
+
+.top a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.top a:visited {
+	color: blue;
+}
+
+.top a:hover {
+	font-weight: normal;
+}
+
+#links a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-size: 1.3em;
+	padding: 20px 10.6px;
+	display: block;
+ }  
+
+#links a:hover {
+	background-color: black;
+	border-color: black;	
+}

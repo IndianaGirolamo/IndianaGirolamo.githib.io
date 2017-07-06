@@ -1,0 +1,32 @@
+/* nav for Kent's Ristorante */
+
+.nav {
+	width: 899px;
+	background-color: #564B3A; /* to test for width */
+}
+
+.nav ul {
+	background-color: #564B3A;
+	padding: 3px;
+	list-style-type: none;
+	display: table;		
+}
+
+.nav ul li {
+	text-decoration: none;
+	display: table-cell;
+	padding: 20px 0;
+}
+
+
+.nav ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: white; 
+	padding: 20px 29.5px;
+}
+
+.nav a:hover {
+	background-color: black;
+	border-color: black;
+}

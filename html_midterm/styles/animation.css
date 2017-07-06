@@ -1,5 +1,5 @@
 footer .sectionB { /* Thanks to Open Source Training for this reference. */
-    height: auto;
+    height: 250px;
     width: 300px;
     float: left;
 	padding: 20px 20px 0 20px;
@@ -41,6 +41,20 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
-.sectionB .facebook {
+ .sectionB .facebook {
 	padding-right: 30px; /* This is to prevent clipping with the edge of the div */
+} 
+
+@keyframes welcomePage {
+	0% {opacity: 0;}
+	
+	100% {opacity: 1;}
+}
+
+
+html {
+	animation-name: welcomePage;
+	animation-duration: .7s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
 }

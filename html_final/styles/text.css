@@ -1,0 +1,57 @@
+/* text for Kent's Ristorante */
+
+h1, h2, h3, h4 {
+	font-family: italiana, italianaregular, sans-serif;
+}
+
+.content p {
+		margin-left: 10px;	
+}
+
+.contentText {
+	margin-left: 10px;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.regular p {
+	font-size: 18px;
+}
+
+#title h1 {
+	margin: 0 0 0 10px;
+	text-align: left;
+	color: #d6d6d6;
+	line-height: 90px;
+	font-size: 2.5rem;
+	font-size: 2.5em;
+}
+
+.aside h2 {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.menuHeader h2 {
+	margin-left: 10px;
+	font-size: 2rem;
+	font-size: 2em;
+	text-align: left;
+	line-height: 75px;
+	color: #BFBFBF;
+}
+
+#content p {
+	color: white;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-size: 1.2em;
+}
+
+.articleA h2 {
+	margin-left: 10px;
+}
+
+.articleB h2 {
+	margin-left: 10px;
+}

@@ -1,0 +1,116 @@
+@import url("normalize.css");
+@import url("nav.css");
+@import url("text.css");
+@import url('images.css');
+@import url('animation.css');
+
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (aspect-ratio: 40/71) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE */ {
+	
+	html {
+		max-width: 568px;
+		width: 100%; 
+	}
+	
+	html body {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body header {
+		text-align: center;
+	}
+	
+	body main {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body aside {
+		display: none;
+	}
+	
+	body footer {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body footer .sectionB {
+		width: 199px;
+		height: 50px;
+		margin-left: 5px; 
+	}
+	
+	#sellPageFooter { /* This is to match the footer with the text on the sell page */
+		margin-left: 25px; 
+		
+	}
+	
+	body .page {
+	max-width: 568px;
+	width: 100%;
+}
+	main .center {
+		max-width: 568px;
+		width: 100%; 
+	}
+	
+}
+
+
+
+@media /* Desktop Styles */ { 
+	
+body {
+	width: 1080px;
+	background-color: rgb(250,250,250);
+	margin: 0 auto; /* center page */ 
+}
+
+main {
+	width: 800px;
+	margin-top: 10px;
+	float: right;
+}
+
+main ol li {
+	font-size: 18.4px;
+	margin-left: 10px;
+}
+
+aside {
+	margin-top: 10px;
+	width: 270px;
+	float: left;
+}
+
+footer {
+	clear: both; /* Forces the footer to be pushed down from the floats 8*/
+	margin-top: 15px;
+}
+
+/* All class selectors are below */
+
+.page {
+	width: 1080px;
+}
+
+.section1 {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+
+.center {
+	margin: 0 auto;
+	width: 650px;
+	text-align: left;
+}
+
+.fill {  /* Putting the background color in the nav tag was giving me issues, so I nested a div tag inside of the nav tag*/
+	background-color: #243743;
+}
+}

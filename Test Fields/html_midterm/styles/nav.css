@@ -1,0 +1,109 @@
+
+
+@media only screen and (aspect-ratio: 40/71) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE */ {
+	body nav {
+		max-width: 568px;
+		width: 100%; 
+	}
+	
+	body nav ul {
+		display: inline-block;
+		margin-top: 20px;
+		padding-top: 0; 
+	}
+	
+	body nav ul li {
+		padding: 0 10px;
+		display: inline-block; 
+	}
+	
+	body nav ul li a {
+		padding: 0px 1px; 
+		font-size: 12px; 
+	}
+	
+	body nav ul li.active {
+		padding: 0px;
+		border: 1px solid black;
+	}
+	
+	body nav ul li a.active {
+		padding: 2px 5px;
+		border: none;
+	}
+	
+	body nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	body .navLinkChecked {
+		display: inline-block;
+		margin-left: 25px;
+		margin-top: 0px;
+	}
+	
+	nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 10px;
+		font-style: normal;
+		top: 160px;
+		padding: 0 3.5px;
+	}
+	
+}
+
+ @media /* Desktop */ { 
+	 nav {
+	width: 1071px;
+}
+
+nav ul {
+	list-style-type: none;	
+	display: table;
+	margin-left: -40px; /* The Navbar was misaligned for some reason, negative margins fixed this */
+	margin-top: 35px;
+}
+
+nav li {
+	display: table-cell; /* I found that table-cell and inline-table worked just as well as using padding and inline-block */
+	text-align: center;
+	background-color: #243743;
+	padding: 7.5px 0;
+}
+
+nav ul li a {
+	/* Font Properties */
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #c0c0c0;
+	background-color: #243743;	
+	
+	
+	/* Display Properties */
+	text-decoration: none;
+	padding: 10px 90px 10px 75px;
+	line-height: 1.5;
+}
+
+
+nav a:hover {
+	color: #FAFAFA;
+	background-color: #8A949B;
+}
+
+.active {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	padding: 0 90px 0 75px;
+	padding-top: 8px;
+	padding-bottom: 9px;
+}
+	 
+}

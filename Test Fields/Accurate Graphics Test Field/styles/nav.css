@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) 
+/* Attributes for iPhone 6+, 6S+, and 7 */ {
+	.container .nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	.nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 195px;
+	}
+	
+	.container .navLinkChecked {
+		display: inline-block;
+		margin-left: -40px;
+		margin-top: 10px;
+	}
+	
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-device-pixel-ratio: 2) { /* Navbar for iPhone 6, 6s, 7 */
+		.container .nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	.nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 195px;
+	}
+	
+	.container .navLinkChecked {
+		display: inline-block;
+		margin-left: -40px;
+		margin-top: 10px;
+	}
+	
+	
+}
+
+@media only screen and (aspect-ratio: 40/71) and (-webkit-device-pixel-ratio: 2) and (max-width: 568px) {
+	.container .nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	.nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 170px;
+	}
+	
+	.container .navLinkChecked {
+		display: inline-block;
+		margin-left: -40px;
+		margin-top: 10px;
+	}	
+}
+
+@media {
+.nav {
+	background: rgb(245,241,237);
+	overflow: hidden;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+}
+
+ul {
+	 list-style-type: none;
+	 float: right; 
+}
+
+ul li {
+	display: inline;
+	float: right;
+}
+
+
+ul li a {
+	font-family: lato, sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0 10px;
+	color: rgb(125,125,125);
+}
+
+ul li a:hover {
+	transition: color .8s;
+	color: rgb(128,0,0);
+}
+
+.icon {
+	display: none;
+}
+}

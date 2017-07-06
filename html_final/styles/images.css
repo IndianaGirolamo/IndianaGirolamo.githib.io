@@ -1,0 +1,62 @@
+/* Images for Kent's Ristorante */
+
+#contact img {
+		border: #FF69B4;
+		float: right;
+	}
+
+.content img {
+	width: 400px;
+	height: 288px;
+	float: right;
+}
+
+#socialImg {
+    height: 80px;
+}
+
+#header img {
+	width: 900px;
+	height: 180px;
+}
+
+
+#social img {
+	width: 30px;
+	height: 30px;
+}
+
+.main2 img {
+	width: 200px;
+	height: 180px;
+	margin-left: 280px; 
+	margin-top: 45px; 
+}
+
+#contactImage img {
+	width: 400px;
+	height: 300px; 
+	margin-top: 50px; 
+	float: right; 
+}
+
+.top img {
+	width: 32px;
+	margin-right: 20px;
+}
+
+.articleA img {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.articleB img {
+	width: 200px;
+	float: right;
+}
+
+.menuImage img {
+	width: 200px;
+}
