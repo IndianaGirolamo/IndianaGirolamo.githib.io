@@ -6,6 +6,8 @@
 <link href="https://fonts.googleapis.com/css?family=Courgette|Lato" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
 <title>Historic Homes Realty</title>
 
 </head>
@@ -18,11 +20,14 @@
 <nav> 
 
  <ul>
-	 <li> <a href="index.html"> Home </a> </li>
-	 <li> <a href="buy.html"> Buy </a> </li>
-	 <li> <a href="sell.html"> Sell </a> </li>
-	 <li> <a href="rent.html" class="active"> Rent </a> </li>
-	 <li> <a href="contact.html"> Contact </a> </li>
+ 	<div class="navLink" id="navLink"> 
+	 	<li> <a href="index.html"> Home </a> </li>
+	 	<li> <a href="buy.html"> Buy </a> </li>
+	 	<li> <a href="sell.html"> Sell </a> </li>
+	 	<li class="active"> <a href="rent.html" class="active"> Rent </a> </li>
+	 	<li> <a href="contact.html"> Contact </a> </li>
+	 </div>
+	 <li> <a href="javascript:void(0);" class="icon" onclick="navExpand()">&#9776;</a> </li>
 </ul>
 	
 </nav> 
@@ -78,6 +83,25 @@
 
 
 </footer> 
+
+		<script> 
+		
+		var checked = true;
+		
+		function navExpand() {
+			
+    var x = document.getElementById("navLink");
+			
+			if (x.className === "navLink") {
+				x.className += "Checked";
+			
+			} else {
+			x.className = "navLink";
+			}	
+    }
+		
+	</script>
+
 
 </body>
 </html>
