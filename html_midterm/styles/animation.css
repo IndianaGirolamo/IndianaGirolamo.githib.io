@@ -1,6 +1,63 @@
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) /* iPhone Plus Models */  {
+	.sectionB .icons:hover img { /* disable animations for mobile */ 
+		z-index: 2;
+    	-moz-transform: scale(.75);
+    	-webkit-transform: scale(.75);
+    	-o-transform: scale(.75);
+		transform: scale(.75);
+	}
+	
+	
+	.sectionB .icons img {
+		
+	height: 38px;
+	width: 38px;
+	-moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+	transform: scale(1);
+	}
+	
+	body footer .sectionB {
+		height: 65px;
+		padding: 5px 5px 0 5px; 
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE */ {
+	
+	.sectionB .icons:hover img { /* disable animations for mobile */ 
+		z-index: 2;
+    	-moz-transform: scale(.75);
+    	-webkit-transform: scale(.75);
+    	-o-transform: scale(.75);
+		transform: scale(.75);
+	}
+	
+	
+	.sectionB .icons img {
+		
+	height: 32px;
+	width: 32px;
+	-moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+	transform: scale(1);
+	}
+	
+	body footer .sectionB {
+		height: 65px;
+		padding: 5px 5px 0 5px; 
+	}
+	
+}
+
+@media /* Desktop */ {
+
 footer .sectionB { /* Thanks to Open Source Training for this reference. */
     height: 250px;
-    width: 300px;
+    width: 325px;
     float: left;
 	padding: 20px 20px 0 20px;
 	
@@ -44,6 +101,7 @@ a:hover, a:visited, a:link, a:active
  .sectionB .facebook {
 	padding-right: 30px; /* This is to prevent clipping with the edge of the div */
 } 
+}
 
 @keyframes welcomePage {
 	0% {opacity: 0;}
@@ -58,3 +116,4 @@ html {
 	animation-iteration-count: 1;
 	animation-timing-function: linear;
 }
+	
