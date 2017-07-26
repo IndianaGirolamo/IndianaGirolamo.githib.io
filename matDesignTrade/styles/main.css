@@ -43,7 +43,7 @@ footer {
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 24%;}
+.col-3 {width: 23%;} /* Col 3 needed to be 23% instead of 25%. */ 
 .col-4 {width: 32.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 49%;} /* Col 6 needed to be 49% instead of the standard 50% */
