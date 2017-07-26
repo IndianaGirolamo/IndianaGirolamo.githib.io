@@ -1,6 +1,0 @@
-# Robots.txt file from http://www.03c7dea.netsolhost.com
-
-Sitemap: http://www.03c7dea.netsolhost.com/sitemap.xml
-
-User-agent: *
-Disallow:

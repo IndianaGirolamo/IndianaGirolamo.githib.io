@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: rgb(240,240,240); 
+	/* font-weight: 400; */ 
+	font-size: 56px;
+	display: inline-block;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 40px; 
+}
+
+.jumboImage h2 {
+	font-size: 35px;
+	color: white;
+	line-height: 4.5; 
+	padding-left: 20px; 
+}
+
+.jumboImage {
+	background-color: black; 
+	height: 150px; 
+}
+
+h3 {
+	font-size: 30px; 
+}
+
+.contactBlock h3 {
+	color: white; 
+	padding-top: 25px; 
+	padding-left: 10px; 
+}
+
+.headerContainer .headerInsideContainer .address p {
+	color: white;
+}
+
+p {
+	font-size: 20px;
+	color: #757575;
+	font-weight: 400;
+}
+
+.address p {
+	font-size: 22px; 
+	margin-top: 15px; 
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.social a:hover {
+	transition: opacity .5s;
+	opacity: .6;
+}
+
+.address a {
+	color: white; 
+}
+
+.contactBlock a {
+	color: white; 
+}
+
+.body main.reviews h2 {
+	display: inline-block;
+	margin-left: 15px; 
+	}
+	
+main.reviews p#firstPara {
+	text-align: left;
+	margin-left: 15px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 768px) {
+	
+	
+	.headerContainer .headerInsideContainer .address p {
+		line-height: 1.5
+	}
+	
+	.headerContainer .headerInsideContainer h1, .headerContainer .headerInsideContainer p {
+		margin-left: 20px; 
+	}
+	
+	.body p {
+		margin-left: 5px; 
+	}
+	
+	.body .contactBlock p {
+		font-size: 2px; 
+	}
+	.body .contactBlock h3 {
+		padding-top: 40px; 
+	}
+	
+	p, a {
+		line-height: 1.8;
+	}
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
+	h1, h2, h3, p, a {
+		line-height: 1.8;
+		
+	}
+	
+	h2 {
+		margin-left: 10px; 
+	}
+}

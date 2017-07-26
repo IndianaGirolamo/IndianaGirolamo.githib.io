@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav {
+	max-width: 1140px;
+}
+
+ul {
+	display: inline-block;	
+	list-style-type: none;
+	margin-left: -40px;
+	
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white; 
+}
+
+ul li a:hover {
+	transition: color .5s;
+	color: rgb(124,77,255);
+}
+
+@media only screen and (max-device-width: 768px) {
+	.nav {
+		max-width: 768px;
+		width: 100%;
+		margin-left: 15px; 
+	}
+	
+	.nav ul li {
+		padding: 0 5.3px;
+}
+	
+}

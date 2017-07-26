@@ -1,5 +1,111 @@
 
-h1, h2, h3 {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) /* iPhone Plus Models */ {
+	body h1 { 
+		font-size: 32px; 
+	}
+	
+	body h2 {
+		font-size: 23px; 
+	}
+	
+	body .sellPage h2 {
+		font-size: 25px; 
+		margin-left: 31px; 
+	}
+	body main p {
+		font-size: 16px; 
+	}
+	
+	body main h3 {
+		font-size: 17px; 
+	}
+	
+	body .sellPage h3 {
+		font-size: 17px;
+		margin-left: 32px;
+	}
+	
+	.page h3 {
+		font-size: 20px; 
+	}
+	
+	body .page .section1 p {
+		font-size: 10px;
+		margin-bottom: 10px; 
+		margin-left: 10px; 
+	}
+	
+	.page p.note {
+		-webkit-text-size-adjust: 60%; /* iOS prevented text adjustments with anything other than this tag */ 
+	}
+	
+	.sellPage ol li {
+		font-size: 12px; 
+		margin-left: -10px;
+		margin-right: 10px; 
+	}
+	
+	.page .section1 p {
+		font-size: 16px; 
+	}
+	
+	.page p.note {
+		font-size: 11px;
+	}
+	
+	.sellPage ol li {
+		font-size: 16px; 
+	}
+	
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE */ {
+	body h1 { 
+		font-size: 25px; 
+	}
+	
+	body h2 {
+		font-size: 20px; 
+	}
+	
+	body .sellPage h2 {
+		font-size: 25px; 
+		margin-left: 31px; 
+	}
+	body main p {
+		font-size: 12px; 
+	}
+	
+	body main h3 {
+		font-size: 17px; 
+	}
+	
+	body .sellPage h3 {
+		font-size: 17px;
+		margin-left: 32px;
+	}
+	
+	body .section1 p {
+		font-size: 12px;
+		margin-bottom: 10px; 
+		margin-left: 10px; 
+	}
+	
+	.page .note {
+		font-size: 9px; 
+	}
+	
+	.sellPage ol li {
+		font-size: 12px; 
+		margin-left: -10px;
+		margin-right: 10px; 
+	}
+}
+
+
+@media /* Desktop */ { 
+	h1, h2, h3 {
 	color: #28B78D;
 	text-align: left;
 	font-family: Lora, monospace;
@@ -15,7 +121,7 @@ h1 {
 h2 {
 	font-size: 32px;
 	margin-bottom: 16px;
-	letter-spacing: 2px; /* This made the drop shadow text easier to read for all H2 tags */
+	/* letter-spacing: 2px; This made the drop shadow text easier to read for all H2 tags */
 }
 
 h3 {
@@ -68,4 +174,9 @@ aside p {
 
 .sellPage h2, .sellPage h3 {
 	margin-left: 50px; 
+}
+	
+	.sellPage ol li {
+		font-family: lato, sans-serif; 
+	}
 }

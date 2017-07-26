@@ -4,6 +4,136 @@
 @import url('images.css');
 @import url('animation.css');
 
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) /* iPhone Plus Models */ {
+	
+	html {
+		max-width: 736px;
+		width: 100%; 
+	}
+	
+	html body {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	body header {
+		text-align: center;
+	}
+	
+	body main {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	body aside {
+		display: none;
+	}
+	
+	body footer {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	body footer .sectionB {
+		width: 199px;
+		height: 50px;
+		margin-left: 5px; 
+	}
+	
+	#sellPageFooter { /* This is to match the footer with the text on the sell page */
+		margin-left: 25px; 
+		
+	}
+	
+	body .page {
+	max-width: 736px;
+	width: 100%;
+}
+	main .center {
+		max-width: 736px;
+		width: 100%; 
+	}
+	
+	body .page .section1 {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+	
+	html body .page .section1 {
+		float: left; 
+		max-width: 348px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE, 6, 6s, 7 */ {
+	
+	html {
+		max-width: 568px;
+		width: 100%; 
+		margin: 0 auto; 
+	}
+	
+	html body {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body header {
+		text-align: center;
+	}
+	
+	html body main {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body aside {
+		display: none;
+	}
+	
+	html body footer {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	body footer .sectionB {
+		width: 199px;
+		height: 50px;
+		margin-left: 5px; 
+	}
+	
+	#sellPageFooter { /* This is to match the footer with the text on the sell page */
+		margin-left: 25px; 
+		
+	}
+	
+	body .page {
+	max-width: 568px;
+	width: 100%;
+}
+	main .center {
+		max-width: 568px;
+		width: 100%; 
+	}
+	
+	.page .section1 {
+		max-width: 568px;
+		width: 100%; 
+	}
+}
+
+
+@media /* Desktop Styles */ { 
+	
 body {
 	width: 1080px;
 	background-color: rgb(250,250,250);
@@ -34,12 +164,6 @@ footer {
 
 /* All class selectors are below */
 
-
-.bannerPic {
-	width: 100%;
-	margin-top: 20px;
-}
-
 .page {
 	width: 1080px;
 }
@@ -58,4 +182,5 @@ footer {
 
 .fill {  /* Putting the background color in the nav tag was giving me issues, so I nested a div tag inside of the nav tag*/
 	background-color: #243743;
+}
 }
