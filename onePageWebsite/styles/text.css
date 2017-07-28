@@ -56,6 +56,10 @@ p, #servicesTab ul li  {
 		font-size: 7.796101949025488vw;
 	}
 	
+	h2 {
+		font-size: 5.997001499250375vw;
+	}
+	
 	p, #servicesTab ul li  {
 	font-size: 2.9985007496251876vw;
 	line-height: 1.8;
@@ -64,7 +68,5 @@ p, #servicesTab ul li  {
 	#reviews p {
 	font-size: 2.39880059970015vw;
 }
-	h2 {
-		font-size: 5.997001499250375vw;
-	}
+
 }
