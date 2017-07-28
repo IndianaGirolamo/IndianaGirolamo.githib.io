@@ -1,0 +1,528 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) /* image adjustments for iPhone 6+, 6s+, and 7+ */ {
+	.container #painless {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 22%;
+	}
+
+	.main .sectionB img[src$="info.png"] {
+		max-width: 736px;
+		width: 70%;
+		float: left;
+		margin-left: 10px;
+	}
+	
+	img[src$="roland2.png"] {
+		max-width: 736px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 60px;
+		margin-left: 15px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 29px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 25px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 35px;
+		margin-right: 10px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 736px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 736px;
+		width: 100%;
+}
+	
+	.container .footer .sectionB img {
+		width: 48px;
+		margin-left: -25px;
+	}
+	
+
+	.container .photos {
+		
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 736px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+		width: 150px;
+		height: 120px;
+}
+	
+	.contactIconsContainer .contactIcons img {
+		width: 30%;
+	}
+	
+	.contactIconsContainer .pullUp /* This pulls up the Contact Icons but not the first one */  { 
+		margin-top: -50px; 	
+	}
+	
+	.contactColor .contactIcons img {
+		width: 35%; 
+	}
+	
+	.contactColor .pullUp {
+		margin-top: -90px; 
+	}
+	
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	
+		.servicesA img[src$="mouse.png"] {
+			width: 55%;
+			margin-top: 10px;
+			margin-left: 15px;
+}
+	
+		.servicesA img[src$="vinyl.png"] {
+			width: 55%;
+			margin-top: -5px;
+} 
+	
+		 .servicesA img[src$="cutter.png"] {
+			width: 55%;
+			margin-top: 0px;
+			margin-right: 10px;
+} 
+	
+		.servicesA img[src$="finish.png"] {
+			width: 55%;
+			margin-top: 0px;
+			margin-right: 10px;
+}
+	.container .contactIconsContainer {
+		max-width: 736px;
+		width: 100%;
+	}
+	
+	html .container .contactIcons {
+		max-width: 140px;
+		width: 100%; 
+		
+	}
+		.container .photos img {
+		width: 190px;
+		height: 160px;
+}
+		.contactIconsContainer .contactIcons img {
+		width: 70%;
+	}
+	
+	.contactPage .contactColor .contactIcons img {
+	width: 70%;
+	}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE, 6, 6s, 7 */   {
+	
+	.container #painless {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 20%;
+	}
+	
+	.sectionB img[src$="info.png"] {
+		margin-bottom: 65px;
+		max-width: 568px;
+		width: 60%;
+		float: left; 
+		margin-left: 10px; 
+		
+	}
+
+	img[src$="roland2.png"] {
+		max-width: 568px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 45px;
+		margin-right: 22px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 15px;
+		margin-right: 19px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 8px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 13px;
+		margin-right: 17px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 568px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 568px;
+		width: 100%;
+}
+	.container .footer {
+		margin-top: 25px;
+	}
+	
+	.container .footer .sectionB img {
+		width: 40px;
+		margin-left: -25px;
+	}
+	
+	.container .photos {
+		max-width: 568px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 568px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+	width: 104px;
+	height: 104px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) /* iPhone 5-sized Landscape */ {
+	
+		.main .servicesA img[src$="mouse.png"] {
+			width: 55%;
+			margin-top: 5px;
+			margin-right: 22px;
+}
+	
+		.main .servicesA img[src$="vinyl.png"] {
+			width: 55%;
+			margin-top: -10px;
+			margin-right: 19px;
+} 
+	
+		.main .servicesA img[src$="cutter.png"] {
+			width: 55%;
+			margin-top: -8px;
+			margin-right: 10px;
+} 
+	
+		.servicesA img[src$="finish.png"] {
+			width: 55%;
+			margin-top: -5px;
+			margin-right: 17px;
+}
+	
+	.container .examples .photos img {
+		width: 140px;
+		height: 140px; 
+	}
+	
+	.contactIconsContainer .contactIcons img {
+		width: 125px; 
+	}
+	
+	body .contactIconsContainer .contactIcons {
+		height: 300px; 
+		margin-bottom: -75px; 
+	}
+	
+	.contactColor .contactIcons img {
+		width: 125px; 
+	}
+	
+	body .contactColor .contactIcons {
+		margin-bottom: -75px; 
+	}
+	
+}
+
+@media /* Default Desktop */ {
+.header img {
+	width: 350px;
+	margin-left: 10px;
+}
+
+.sectionB [src$="info.png"] {
+	margin-bottom: 150px;
+	margin-top: -25px;
+}
+
+#painless img {
+	vertical-align: middle; 
+	padding: 10px 0;
+	width: 175px;
+}
+
+.contactIcons img {
+	vertical-align: middle;
+	padding: 10px 0;
+	width: 200px;
+	display: inline-block;
+}
+
+.contactIcons img:hover {
+	transition: all .5s;
+	opacity: .5;
+	
+	-moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+	transform: scale(.95);
+}
+
+.footer .sectionB img {
+	float: right;
+	padding: 0 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+.servicesA img {
+	float: right;
+	width: 200px;
+}
+
+.servicesA [src$="mouse.png"] {
+	margin-top: 15px;
+}
+
+/* .servicesA [src$="vinyl.png"] {
+	margin-top: 0px;
+} */
+
+ .servicesA [src$="cutter.png"] {
+	margin-top: -25px;
+} 
+
+.servicesA [src$="finish.png"] {
+	margin-top: -6px;
+}
+
+[src$="roland2.png"] {
+	max-width: 1200px;
+	width: 100%;
+}
+
+[src$="info.png"] {
+	float: right;
+}
+
+[src$="als.jpg"] {
+	width: 1200px;
+}
+
+[src$="desks.jpg"] {
+	margin-top: 90px; 
+	width: 1200px;
+}
+
+[src$="officePano.jpg"] {
+	margin-top: 90px;
+	width: 1200px;
+}
+
+[src$="rolandInk.jpg"] {
+	margin-top: 90px;
+	width: 1200px;
+}
+
+
+/* Below is for the photo gallery in the examples.html page */
+
+.photos {
+	width: 1200px;
+	margin-left: -83px;
+	/* margin: 0 auto; */
+}
+
+.photos img {
+	width: 250px;
+	height: 250px;
+	float: left;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.photos img:hover {
+	transition: all .5s;
+	opacity: .5;
+		
+	-moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+	transform: scale(.95);
+}
+
+
+.photo-gallery ul {
+	list-style: none;
+	/* margin: 0px auto; */
+	display: block;
+}
+
+.photo-gallery li {
+	display: block;
+}
+
+.photo-gallery li img {
+	width: 250px;
+	height: 250px;
+	margin: 10px 3px;
+}
+ /* End Photo Gallery Code */
+}
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-device-pixel-ratio: 2) /* Image adjustments for iPhone 6, 6s, 7  { 
+	
+		
+	.container #painless {
+		max-width: 667px;
+		width: 100%;
+	}
+	
+	.container #painless img {
+		width: 22%;
+	}
+
+	img[src$="roland2.png"] {
+		max-width: 667px;
+		width: 100%;
+}
+	
+	.servicesA img[src$="mouse.png"] {
+		width: 85%;
+		margin-top: 175px;
+		margin-left: 15px;
+}
+	
+	
+	.servicesA img[src$="vinyl.png"] {
+		width: 85%;
+		margin-top: 114px;
+} 
+
+	 .servicesA img[src$="cutter.png"] {
+		width: 85%;
+		margin-top: 100px;
+		margin-right: 10px;
+} 
+	
+	.servicesA img[src$="finish.png"] {
+		width: 85%;
+		margin-top: 120px;
+		margin-right: 10px;
+}
+	
+	img[src$="desks.jpg"] { 
+		max-width: 667px;
+		width: 100%;
+}
+	
+	img[src$="officePano.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	img[src$="rolandInk.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	img[src$="als.jpg"] {
+		max-width: 667px;
+		width: 100%;
+}
+	
+	.container .footer .sectionB img {
+		width: 50px;
+		margin-left: -25px;
+	}
+	
+	.container .photos {
+		max-width: 667px;
+		width: 100%;
+	}
+	
+	.container .photo-gallery {
+		max-width: 667px;
+		width: 100%;	
+		margin-right: -65px;
+	}
+	
+	.container .photos img {
+	width: 120px;
+	height: 120px;
+}
+	
+	
+} */

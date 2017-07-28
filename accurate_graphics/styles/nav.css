@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) 
+/* Attributes for iPhone 6+, 6S+, and 7 */ {
+	.container .nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	.nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 195px;
+	}
+	
+	.container .navLinkChecked {
+		display: inline-block;
+		margin-left: -50px;
+		margin-top: 20px;
+	}
+	
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE, 6, 6s, 7 */  {
+	.container .nav .navLink {
+		float: right;
+		display: none;
+		overflow: auto;
+	}
+	
+	.nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 170px;
+	}
+	
+	.container .navLinkChecked {
+		display: inline-block;
+		margin-left: -40px;
+		margin-top: 10px;
+		-webkit-text-size-adjust: 100%; /* 2 */
+	}	
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) /* Landscape iPhone 5, 5s, SE, 6, 6s, 7 */ {
+	html .container .nav ul li .icon {
+		right: 60px; 
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) /* Landscape mode iPhone 5, 5s, SE, 6, 6s, 7 */ { 
+	
+		.container .nav ul li .icon {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 55px;
+		top: 170px;
+	}
+	
+	html .container .navLinkChecked {
+		display: inline-block;
+		margin-left: -40px;
+		margin-top: 80px;
+	}
+	
+	}
+
+@media /* Desktop */ {
+.nav {
+	background: rgb(245,241,237);
+	overflow: hidden;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+}
+
+ul {
+	 list-style-type: none;
+	 float: right; 
+}
+
+ul li {
+	display: inline;
+	float: right;
+}
+
+
+ul li a {
+	font-family: lato, sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0 10px;
+	color: rgb(125,125,125);
+}
+
+ul li a:hover {
+	transition: color .8s;
+	color: rgb(128,0,0);
+}
+
+.icon {
+	display: none;
+}
+
+.sectionB ul {
+	margin-right: 50px; 
+}
+}

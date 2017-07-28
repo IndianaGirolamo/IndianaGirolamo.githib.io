@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio: 3) 
+	/* Text for iPhone 6+, 6S+, and 7+ */ {
+		
+	 	.container ul .navLink li a {
+		font-size: 18px;
+		margin-left: -8px;
+	}
+		
+		.container .examples h1 { /* Example Page h1 */ 
+			font-size: 30px;
+		}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-device-pixel-ratio: 2)
+	/* Text for iPhone 6, 6s, and 7 */ {
+		
+		/* .nav ul .navLinkChecked li a {
+		font-size: 16px;
+		margin-left: -10px;
+	} */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) /* iPhone 5, 5s, SE, 6, 6s, 7 */ {
+	
+		.container .main h1 {
+			line-height: 1.5;
+	}
+		
+		.container h1 {
+			font-size: 28px;
+		}
+		
+		.container .main p {
+			font-size: 16px;
+			line-height: 1.8;
+		}
+		
+	.header .nav ul .navLinkChecked li a {
+		font-size: 13px;
+		margin-left: -10px;
+	}
+		
+		.main #painless h3 {
+			font-size: 18px;
+			margin: 0 10px;
+		}
+		
+		.main .servicesB p {
+			font-size: 15px;
+		}
+		
+		.main .servicesB h2 {
+			font-size: 25px;
+		}
+		
+		.contactPage  h3 {
+			font-size: 18px;
+		}
+	
+	.footer h2 {
+		font-size: 24px;
+	}
+	
+	.container .contactPage h3 {
+		line-height: 1.75;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+	.footer .sectionB ul {
+		margin-top: 48px; 
+	}
+}
+
+
+@media /* Default Desktop */
+{ 
+	
+	h1, h2, h3 {
+	font-family: Monserrat, sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+p {
+	font-family: lato, sans-serif;
+	text-align: left;
+	line-height: 1.5;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+#painless h3 {
+	
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 27.5px;
+}
+
+.contactIcons p {
+	font-size: 18px;
+	text-align: center !important;
+}
+
+.main h3 {
+	clear: both;
+	padding-top: 25px;
+}
+
+.contactPage p, .contactPage h1, .contactPage h3 {
+	text-align: center; 
+}
+
+/* .examples h1, .examples p{
+	margin-left: 83px;
+} This code is just in case the images shift back to the right; I was having some issues with aligning the photos with the text. */
+}
