@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, p, #servicesTab ul li  {
+	margin-left: 0.4385964912vw;
+	margin-right: 0.4385964912vw;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 4.56140350877193vw;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 3.508771929824561vw;
+}
+
+h3 {
+	font-size: 2.631578947368421vw;
+}
+
+p, #servicesTab ul li  {
+	font-size: 2vw; 
+	line-height: 1.8;
+}
+
+#reviews p {
+	font-size: 1.8vw;
+}
+
+@media only screen and (min-width: 2000px) /* This is for Ultrawide Monitors, or monitors with a 21:9 Aspect Ratio. */ {
+	h1 {
+		font-size: 2.34375vw;
+	}
+	
+	h2 {
+		font-size: 1.875vw;
+	}
+	
+	h3 {
+		font-size: 1.484375vw;
+	}
+	
+	p, #servicesTab ul li  {
+	font-size: 1.09375vw;
+	line-height: 1.8;
+}
+	#reviews p {
+	font-size: 0.9375vw;
+}
+}
+
+@media only screen and (max-device-width: 667px) {
+	h1 {
+		font-size: 7.796101949025488vw;
+	}
+	
+	p, #servicesTab ul li  {
+	font-size: 2.9985007496251876vw;
+	line-height: 1.8;
+}
+	
+	#reviews p {
+	font-size: 2.39880059970015vw;
+}
+	h2 {
+		font-size: 5.997001499250375vw;
+	}
+}
