@@ -53,27 +53,37 @@ table {
 
 /* end CSS Reset */
 
+
+
+
+
+
+
+
+
+
 * {
 	box-sizing: border-box;
 }
 
 html {
-	background-color: rgb(133, 155, 143);
-    font-family: 'Sansita', sans-serif;
-	letter-spacing: 2px; 
+	
 	max-width: 1200px;
-	font-size: 16px;
+	width: 100%; 
+	
+	background-color: rgb(133, 155, 143);
+    font-family: Sansita, sans-serif;
+	letter-spacing: 1px; 
+	font-size: 1.3333333333333333vw;
 	margin: 0 auto;
 }
 
 body {
-	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto; /* center page */
+	width: 85%;
+	margin: 0 auto; /* Center Page */ 
 	background-color: rgb(217,150,61);
 	box-shadow: 3px 3px 3px 4px #000;
 	color: rgb(82,49,118);
-	font-weight: bold;
 }
 
 
@@ -82,14 +92,91 @@ header {
 	margin-top: 10px; 
 }
 
-header h1 {
-	padding-top: 10px
+footer {
+	text-align: left;
 }
 
-header img {
-	width: 192px;
-	padding: 10px;
-	float: left;
+span {
+	float: right;
+}
+
+.headAlign {
+	text-align: center;
+	font-family: 'Pangolin', cursive;
+	font-size: 2vw;
+	display: inline;
+	padding-right: 5px;
+}
+
+.strong {
+	text-align: left; 
+	font-weight: bold;
+}
+
+.center { /* leftover class will be used for menuHeaders, for now */ 
+	text-align: left;
+	background-color: #264653;
+	color: #c0c5c1;
+	margin: 20px 10px;
+	padding-left: 15px;
+}
+
+.table {
+	max-width: 960px;
+}
+
+.border {
+	border: medium double black 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Text */ 
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+	font-family: Sansita, sans-serif;
+}
+
+h1 {
+	font-size: 3.75vw;
+}
+
+header h1 {
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 2.3333333333333335vw;
+}
+
+h3 {
+	font-size: 2vw;
+}
+
+.container h3, h2 {
+	padding: 15px;
+}
+
+h4 {
+	font-size: 1.6666666666666667vw;
+}
+
+p {
+	font-family: 'Roboto', 'sans-serif';
+	margin: 15px;
+	line-height: 1.5;
+	color: rgb(39,31,48);
+	letter-spacing: 0;  
+	font-weight: 500;
 }
 
 a {
@@ -97,17 +184,17 @@ a {
 	text-align: left;
 }
 
-
-
-h2 {
-	font-size: 28px;
+a:hover {
+	text-decoration: underline;
+	font-family: 'Roboto', 'sans-serif';
 }
 
+a:visited {
+	color: blue; 
+}
 
-p {
-	font-family: Sansita;
-	margin: 15px;
-	line-height: 1.5;
+.container a {
+	font-size: 1.5em;
 }
 
 strong {
@@ -115,43 +202,21 @@ strong {
 	color: red;
 }
 
-footer {
-	text-align: left;
+.small {
+	font-size: 1vw;
 }
 
-table {
-	font-size: 20.8px;
-	overflow: auto;
-	
+
+
+
+.right {
+	text-align: right; 
 }
 
-th {
-	width: 240px;
-}
 
-td {
-	font-size: 17.6px;
-	margin-right: 5px;
-}
 
-#links {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2; /* used to put the menu items in two rows */
-	margin: 0 auto;
-	text-align: center;
-}
 
-#links a {
-	display: block;
-	margin: 1.5% 0;
-}
-
-a:hover {
-	text-decoration: underline;
-	font-weight: normal;
-}
-
+/* Begin Nav */
 nav {
 	border: solid 1px;
 	margin: 0 10px;
@@ -169,69 +234,52 @@ nav li {
 }
 
 nav ul li a {
-	font-size: 16px;
+	font-size: 1.3333333333333333vw;
 	padding: 0 32px;
 }
 
 
+
+
+
+
+
+
+
+/* Begin Images */
+
+header img {
+	max-width: 192px;
+	width: 100%; 
+	padding: 10px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+/* Begin Table Code */
+
+
+table {
+	font-size: 1.6666666666666667vw;
+	overflow: auto;
+	
+}
+
+th {
+	width: 240px;
+}
+
+td {
+	font-size: 1.4166666666666667vw;
+	margin-right: 5px;
+}
+
 tbody {
 	overflow: auto;
-}
-
-h3 {
-	font-size: 24px;
-}
-
-span {
-	float: right;
-}
-
-.headAlign {
-	text-align: center;
-	font-family: 'Pangolin', cursive;
-	font-size: 24px;
-	display: inline;
-	padding-right: 5px;
-}
-
-
-.container h3, h2 {
-	padding: 15px;
-	
-}
-
-.strong {
-	text-align: left; 
-	font-weight: bold;
-}
-
-.container a {
-	font-size: 1.5em;
-}
-
-.center { /* leftover class will be used for menuHeaders, for now */ 
-	text-align: left;
-	background-color: #264653;
-	color: #c0c5c1;
-	margin: 20px 10px;
-	padding-left: 15px;
-}
-
-
-.table {
-	width: 960px;
-	
-}
-
-.small {
-	font-size: 12px;
-}
-
-.border {
-	border: medium double black 10px;
-}
-
-
-.right {
-	text-align: right; 
 }
