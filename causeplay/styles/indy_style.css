@@ -1,135 +1,114 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+@import url("normalize.css");
+
 @font-face {
 	font-family: "League Gothic";
-	src: url(fonts/leaguegothic-regular-webfont.woff)
+	src: url("../fonts/leaguegothic-regular-webfont.woff")
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 
 /* Parameters for the entire HTML Document */
 
 html {
-	margin: 0;
+	
+	max-width: 1140px;
+	width: 100%; 
+	margin: 0 auto;
 	padding: 0;
-  font-family: "League Gothic", sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgb(43,62,80);
-  font-size: 1em;
+	font-family: "League Gothic", sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: rgb(43,62,80);
+	font-size: 1.4035087719298245vw;
 }
 
 
 body {
-	max-width: 80%;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #4e5d6c;
+	min-height: 100%; 
 }
 /* end Parameters for the HTML Document */
 
-img {
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
-	margin: 2px;
-}
-.nav {
-  background-color: #4e5d6c;
-  border-color: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  overflow: hidden;
-  text-align: left;
+
+
+
+
+
+
+
+
+
+/* Begin Main Styles */ 
+
+.col-lg-5 {
+	width: 98%;
+	margin-top: 50px;
+	background-color: rgb(78,93,108);
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	padding-left: 1%;
+	padding-right: 1%;	
 }
 
+.col-lg-5 p {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/* Begin Text */ 
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 4.385964912280701vw;
 	text-align: center;
 	color: rgb(235,235,235);
 	letter-spacing: 7px;
-    margin: 0.67em 0;
     font-family: "League Gothic";
 }
 
 
 h2 {
-	font-size: 2rem;
-	text-align: center;
+	font-size: 3.070175438596491vw;
 	color: rgb(235,235,235);
-    margin: 0.67em 0;
     font-family: "League Gothic";
 	letter-spacing: 1.4px;
 }
 
 p {
-	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
 	color: lightgray;
-	font-size: 2rem;
+	font-size: 1.7543859649122806vw;
 	padding-bottom: 10px;
 	letter-spacing: 1px;
 	line-height: 1.5;
 	padding-left: 5px;
-	padding-right: 5px;
-	
+	padding-right: 5px;	
 }
 
- 
-.smallImg {
- width: 25%;
-height: auto;
-margin-right: 75%;	
-}
-
-.medImg {
- width: 65%;
-height: auto;	
-}
-
-#imgCenter  {
-text-align: center;
-	
-}
-
-.left_align {
-	text-align: left;
-}
-#mainImage {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	}
-
-.navbar {
-	max-width: 100%;
-	
-}
-
-ul {
-	/* display:table; */
-	width: 100%; 
-	height: 100%;
-	list-style-type: none;
-	border-bottom: 2px dotted black;
-	
-}
-
-ul li {
-	font-size: 1.3rem;
-	/* display: table-cell; */
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 ul li a {
 	text-decoration: none;
 	color: rgb(235,235,235);
 	margin-right: 7%;
-	
 }
 
 a:link {
@@ -144,38 +123,59 @@ a:hover {
 
 
 
-/* Everything below is not intended for the index page */
 
-.col-lg-5 {
-	width: 98%;
-	margin-top: 50px;
-	background-color: rgb(78,93,108);
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-	padding-left: 1%;
-	padding-right: 1%;
-	
-}
 
-.col-lg-5 p {
+
+
+/* Begin Nav */ 
+
+.nav {
+	background-color: #4e5d6c;
+	border-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	overflow: hidden;
 	text-align: left;
 }
 
+#mainImage {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
 
-/* This is borrowed CSS from Mark Glissmann from Codepen.io. Thanks Mark! :) */
-#photos {
-  /* opacity: .88; */
+.navbar {
+	max-width: 100%;
+	
+}
+
+ul {
+	width: 100%; 
+	list-style-type: none;
+	}
+
+ul li {
+	display: inline;
+	margin: 0 auto; 
+}
+
+
+/* This is borrowed CSS from Mark Glissmann from Codepen.io. Thanks Mark! :) This code organizes the photo gallery section. */
+#photos #photo-gallery img:hover {
+	transition: all .3s linear;
+	
+	opacity: .5;
 }
 
 #photos img {
-  width: 30%;
-  float: left;
-  display: block;
-  margin: 2px;
+	width: 30%;
+	float: left;
+	display: block;
+	margin: 2px;
 	-webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
@@ -210,7 +210,8 @@ box-sizing: border-box;
 }
 
 #photo-gallery {
-  width: 100%;
+	max-width: 1020px;
+	width: 100%;
 }
 
 #smallerImage {
@@ -223,6 +224,15 @@ box-sizing: border-box;
 	color: indianred;
 }
 
+
+
+
+
+
+
+
+
+/* Return to Top Code */ 
 #returnTop {
 	position: fixed;
 	bottom: 0;
@@ -230,17 +240,61 @@ box-sizing: border-box;
 }
 
 #returnTop img {
-width: 35%;
+	max-width: 17.543859649122805vw;
+	width: 25%; 
+}
+
+#returnTop img:hover {
+	transition: all .3s linear; 
+	
+	opacity: .5;
 }
 
 #returnTop p {
 	color: rgb(235,21,19);
 	text-align: center;
 	display: inline-block;
-	font-size: 1.3rem;
+	font-size: 0;
 }
-
 
 #returnTop a {
 text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Begin  Images */ 
+
+img#logo {
+	width: 100%; 
+}
+#imgCenter  {
+	text-align: center;
+}
+
+img#mainImage {
+	width: 100%; 
+}
+
+#spidermanHappy {
+	max-width: 300px;
+	width: 100%; 
+
+ 
+.smallImg {
+ width: 25%;
+height: auto;
+margin-right: 75%;	
+}
+
+.medImg {
+ width: 65%;
+height: auto;	
 }
