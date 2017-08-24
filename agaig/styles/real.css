@@ -79,7 +79,7 @@ html {
 }
 
 body {
-	width: 85%;
+	width: 90%;
 	margin: 0 auto; /* Center Page */ 
 	background-color: rgb(217,150,61);
 	box-shadow: 3px 3px 3px 4px #000;
@@ -88,7 +88,7 @@ body {
 
 
 header {
-	margin-bottom: 50px; /* Ensure that header does not overlap with the navbar.*/
+	margin-bottom: 30px; /* Ensure that header does not overlap with the navbar.*/
 	margin-top: 10px; 
 }
 
@@ -98,6 +98,9 @@ footer {
 
 span {
 	float: right;
+	padding-top: 1.8%; 
+	margin-right: 1.5%; 
+	color: rgb(39,31,48);
 }
 
 .headAlign {
@@ -127,6 +130,27 @@ span {
 
 .border {
 	border: medium double black 10px;
+}
+
+.tableLayout {
+	width: 24%;
+	display: inline-block;
+}
+
+#dinner /* This is the last section of the menu page */ {
+	margin-bottom: 7%; 
+}
+
+
+
+
+@media only screen and (min-width: 2000px) /* Ultrawide */
+
+{
+	html {
+		max-width: 1800px;
+		width: 100%;
+	}
 }
 
 
@@ -206,22 +230,59 @@ strong {
 	font-size: 1vw;
 }
 
-
-
-
-.right {
-	text-align: right; 
+.menuPage p {
+	display: inline-block;
+	width: 90%;
 }
+@media only screen and (min-width: 2000px) /* Ultrawide */ {
+	
+	h1 {
+		font-size: 2.888888888888889vw;
+	}
+	
+	h2 {
+		font-size: 1.9444444444444444vw;
+	}
+	
+	h3 {
+		font-size: 1.6666666666666667vw;
+	}
+	
+	p, body nav ul li a, a {
+		font-size: 0.8888888888888888vw;
+	}
+}
+
+@media only screen and (max-width: 768px) /* Mobile */ {
+	
+	h1 {
+		font-size: 6.510416666666667vw;
+	}
+	
+	h2 {
+		font-size: 4.557291666666667vw;
+	}
+	
+	h3 {
+		font-size: 4.557291666666667vw;
+	}
+	
+	p, a {
+		font-size: 2.604166666666667vw;
+	}
+	
+	body nav ul li a {
+		font-size: 2.0833333333333335vw;
+}
+}
+	
 
 
 
 
 /* Begin Nav */
 nav {
-	border: solid 1px;
-	margin: 0 10px;
-	text-align: center;
-	line-height: 1.5;
+	margin: 0 10px 10px 10px;
 }
 
 nav ul { 
@@ -236,6 +297,17 @@ nav li {
 nav ul li a {
 	font-size: 1.3333333333333333vw;
 	padding: 0 32px;
+}
+
+@media only screen and (max-width: 768px) /* Mobile */{
+	nav {
+		margin-left: 5px; /* Reset the Margin Bottom set by base nav declaration */
+		margin-right: 5px;
+	}
+	
+	nav ul li a {
+		padding: 0 16px;
+}
 }
 
 
@@ -253,8 +325,15 @@ header img {
 	width: 100%; 
 	padding: 10px;
 	float: left;
+	border-radius: 25px;
 }
 
+@media only screen and (max-width: 768px) /* Mobile */ {
+	
+	header img {
+		max-width: 70px;
+		width: 100%;
+	}
 
 
 
