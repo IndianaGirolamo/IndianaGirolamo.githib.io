@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+<head>
+
+	<link href='styles/main.css' rel="stylesheet">
+
+<title> Form Validation </title>
+
+</head>
+
+<body>
+	<div id="container">
+	<h2> Please enter your information </h2>
+	<span> First Name: </span>
+	<input type="text" id="firstName" onBlur="validationCheck('firstName')" placeholder="Enter First Name Here">
+
+	<span> Last Name: </span>
+	<input type="text" id="lastName" onBlur="validationCheck('lastName')" placeholder="Enter Last Name Here"> 	
+	<span> Address: </span>
+	<input type="text" id="address" onBlur="validationCheck('address')" placeholder="Enter Address Here">
+	<span> City: </span>
+	<input type="text" id="city" onBlur="validationCheck('city')" placeholder="Enter City Here">
+	<span> State: </span>
+	<input type="text" id="state" onBlur="validationCheck('state')" maxlength="2" placeholder="Enter State Here">
+	<span> Zip Code: </span>
+	<input type="text" id="zipCode" onBlur="validationCheck('zipCode')" maxlength="5" placeholder="Enter Zip Code Here">
+</div>
+
+
+<script src='scripts/script.js'>
+
+</script> 
+
+</body>
+
+</html>
+
+
