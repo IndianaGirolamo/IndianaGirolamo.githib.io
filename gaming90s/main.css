@@ -1,0 +1,162 @@
+html, body, #container {
+	height: 100%; 
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+	padding: .5% 0; 
+	background-image: url(slamjam.gif);
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	font-size: 1.04em;
+}
+
+h1, h2, h3 {
+	font-family: Courier, monospace;
+	font-weight: normal;
+	display: block;
+}
+
+h1 {
+	font-size: 40px; 
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 1.1em;
+}
+
+h3 {
+	font-size: 20px; 
+	display: inline-block;
+}
+
+#container {
+	background: rgba(0,0,0,.4)
+}
+
+a {
+	color: #ff4c4c;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: purple;
+}
+
+#navbar a {
+	display: inline-block;
+	padding-right: 5%;
+}
+
+#games, #tech, #year, #dev, #plat {
+	width: 100%;
+	padding: .5%;
+	float: left;
+}
+
+#games, #year, #dev, #plat {
+	column-count: 2;
+}
+
+.content {
+	display: none;
+}
+
+#navbar {
+	width: 100%;
+}
+
+.techGameImages {
+	width: 160px;
+}
+
+span {
+	line-height: 1.3em; 
+	display: inline-block;
+	position: relative;
+}
+
+.gameImages {
+	width: 320px;
+	float: left;
+}
+
+.techGameHeader {
+	width: 320px;
+	display: block;
+}
+
+.master {
+	display: none;
+}
+
+#year {
+	line-height: 1.3em;
+}
+
+
+
+#nothing {
+	width: 60%; 
+	float: right;
+	display: inline-block;
+}
+
+#linkNothing {
+	float: left;
+	width: 35%;
+	height: 100%;
+}
+
+#aimLeft {
+	float: left;
+}
+
+.aim {
+	width: 32px;
+	display: inline-block;
+	opacity: .75;
+		
+	animation:
+	-webkit-animation: spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+
+.logoImage {
+	width: 128px;
+}
+
+.right {
+	float: right;
+	transform: translateY(-10%);
+	width: 53%;
+}
+
+.yearDiv {
+	width: 47%;
+	display: inline-block;
+	padding: 1%;
+	
+}
+
+.consoleImage {
+	width: 480px;
+}
+
+@-moz-keyframes spin { 
+	100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+	100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin {
+	100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}

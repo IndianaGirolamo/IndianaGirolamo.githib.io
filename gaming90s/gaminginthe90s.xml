@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gaminginthe90s.xsl" ?>
+
+<root>
+
+	<year>2018</year>
+
+<!-- Format for inserting games are: advancements, release date, rating, location of image, publisher-->
+<game>
+<name id="4" release="1993" rating="e" image="daytona.jpg" dev="am2" description="From the developers of Virtua Racing comes another 3D racing game that is even better than the last. Enter the driver's seat of a racecar as you blaze through three highly-detailed, fully-3D race tracks." arc="arc" sat="sat">Daytona USA</name>
+
+<name id="5" release="1994" rating="e" image="theme.gif" dev="bul" description="Take control of a theme park in this simulation game. Raise prices, hire workers, and build new attractions to become the best theme park in the world." dos="dos" gen="gen" scd="scd" sat="sat" psx="psx" snes="snes">Theme Park</name>
+
+<name id="1" release="1994" rating="e" image="magic.gif" dev="bul" description="You play as a wizard on a magic carpet on the hunt for other wizards and monsters" dos="dos" psx="psx" sat="sat">Magic Carpet</name>
+
+<name id="3" release="1996" rating="e" image="mario.jpg" dev="nin" description="Jump, kick, and traverse through Nintendo's first fully-3D platforming-style video game. Princess Peach has been kidnapped by Bowser... again, and it's up to Mario to save her!" n64="n64">Super Mario 64</name>
+
+<name id="2" release="1996" rating="m" image="quake.jpg" dev="id" description="Shoot your way through gothic-style levels while facing hordes of enemies while listening to Nine-Inch Nails. If that doesn't yell 1990s to you, I don't know what will." sat="sat" dos="dos" n64="n64" win="win">Quake</name>
+
+<name id="1" release="1993" rating="m" image="doom.png" dev="id" description="Set in the distant future, you take control of space marine trying to fight his way out of Hell." dos="dos" s32="s32" snes="snes" psx="psx" sat="sat">Doom</name>
+
+<name id="1" release="1999" rating="m" image="unreal.jpg" dev="epi" description="This is a futuristic, fast-paced arena shooter. An arena shooter is essentially a cage fight, except you're in a closed-off map with guns. When Unreal hit the market in 1999, it's graphics were unlike any other." win="win">Unreal Tournament</name>
+
+<name id="1" release="1992" rating="e" image="vr.jpg" dev="am2" description="Take control of a F1 racer in one of the very first fully-3D video games." arc="arc" s32="s32" sat="sat" gen="gen">Virtua Racing</name>
+
+<name id="3" release="1996" rating="t" image="tomb1.jpg" dev="cor" description="Play as Laura Croft as you navigate through caves and dungeons while shooting wild animals that will attack you." sat="sat" dos="dos" psx="psx" win="win">Tomb Raider</name>
+
+<name id="1" release="1994" rating="e" image="dkc.jpg" dev="rar" description="Someone has stolen all of your bananas! Play as Donkey Kong and Diddy Kong and navigate through beautifully designed levels, ride on animals, and listen to its relaxing soundtrack." snes="snes">Donkey Kong Country</name>
+
+<name id="4" release="1998" rating="m" image="hl1.jpg" dev="val" description="In this Legendary first-person shooter, you play as Gordon Freeman (PhD) as he is fighting his way through aliens that were summoned to Earth due to an accident that his research facility caused. Meanwhile, the US Military is trying to kill everyone involved in Freeman's research to cover this disaster up, including the scientists." win="win">Half-Life</name>
+
+<name id="1" release="1994" rating="e10" image="vf2.jpg" dev="am2" description="In one of the first 3D fighting games, take control of one of 10 characters and fight your way to becoming fighting champion. Devestate your opponents with combos, grabs, and counters that will leave them defeated before you can say 'wow'!" arc="arc" gen="gen" sat="sat" win="win">Virtua Fighter 2</name>
+
+<name id="2" release="1990" rating="t" image="wing.gif" dev="ori" description="You are a spaceship commander in space. See through the perspective of the cockpit as you fight your way through hordes of spaceships." dos="dos" scd="scd" snes="snes" win="win">Wing Commander</name>
+
+<name id="3" release="1991" rating="t" image="nwnights.jpg" dev="bio" description="In one of the first MMORPG's ever, you get to create your own character, engage in quests, and compete in Player versus Player game modes." dos="dos">Neverwinter Nights</name>
+
+<name id="1" release="1997" rating="t" image="ff7.jpg" dev="squ" description="The fictional city of Midgar gets the energy to power itself from sucking up the planet's energy. You follow the story of Cloud Strife, an ex-Soldier with superhuman strength and the AVALANCHE group, a team dedicated to stopping Midgar from 'accidentally' destroying the planet. Cloud's gang gets into something much deeper than corporate sabotage." psx="psx" win="win">Final Fantasy VII</name>
+
+<name id="3" release="1998" rating="m" image="mgs1.jpg" dev="kon" description="You play as Secret Agent Solid State, as you inflitrate the FOXHOUND organization that has seized control of a remote Alaskan Island. FOXHOUND's demands are simple: The US will surrender or else they will unlrease a nuclear robot and destroy the country." psx="psx" win="win">Metal Gear Solid</name>
+
+<name id="1" release="1990" rating="m" image="fzero.jpg" dev="nin" description="You play as pilot Captain Falcon has you race through psuedo-3D racetracks at blistering speeds." snes="snes">F-Zero</name>
+
+<name id="3" release="1991" rating="e" image="lttp.png" dev="nin" description="You play as Link as you try to save the seven maidens from the clutches of Ganon, a powerful Gerudo Wizard." snes="snes">A Link to the Past</name>
+
+<name id="3" release="1992" rating="t" image="u7.png" dev="ori" description="You play as your own avatar, are you foil evil plans that would befall Britannia" dos="dos">Ultima VII: The Black Gate</name>
+
+<name id="1" release="1995" rating="e" image="mech2.jpg" dev="act" description="Set in the very far future, you play as a member of one of two clans that are fighting for control of Earth." win="win" sat="sat" psx="psx" dos="dos">MechWarrior 2</name>
+
+<name id="4" release="1997" rating="m" image="q2.jpg" dev="id" description="Return to the gothic-style shooter that took the PC Gaming world by storm, and add a bunch of improvements onto it as well as an incredible multiplayer mode. The best part is that Nine-Inch Nails is back." win="win" n64="n64" psx="psx" dre="dre">Quake II</name>
+
+<name id="1" release="1999" rating="t" image="sc1.jpg" dev="sou" description="This combo-intensive fighting game has you picking between 1 of 19 characters in their fight to obtain the Soul-Edge; the most powerful weapon in the world." arc="arc" dre="dre">Soul Calibur</name>
+
+<name id="5" release="1996" rating="e" image="civc.jpg" dev="act" description="Civilization is essentially a video game version of Axis and Allies. You are the king of a country and it is your goal to either out-science the other nations, conquer them via war, out 'culture' them, or build a world wonder before anyone else." psx="psx">Civilization: Call To Power</name>
+
+<name id="5" release="1998" rating="t" image="starcraft.jpg" dev="bli" description="In this strategy game, humanity fights against the Protoss and Zerg aliens in hopes to not become extinct." win="win" n64="n64">Starcraft</name>
+
+<name id="3" release="1998" rating="t" image="bgate.jpg" dev="bio" description="Modeled after Dungeons and Dragons, this game has you taking control of an avatar and traversing through maps from a bird's eye view" win="win">Baldurs Gate</name>
+
+<name id="5" release="1994" rating="e" image="warcraft.jpg" dev="bli" description="The Humans and Orcs are at war in this strategy game. Command an army and wipe out the other team's minions." win="win">Warcraft: Orcs &amp; Humans</name>
+
+<name id="3" release="1997" rating="t" image="tomb2.jpg" dev="cor" description="Laura Croft returns in this incredible adventure. This time, Laura is in search of the mythical 'Dagger of Xian'." win="win" psx="psx">Tomb Raider II</name>
+
+<name id="5" release="1999" rating="e" image="ageofwonders.jpg" dev="epi" description="This is a turn-based strategy game in a fantasy setting." win="win">Age of Wonders</name>
+
+<name id="3" release="1998" rating="t" image="sui2.jpg" dev="kon" description="Three years after the Gate Rune War, the 108 Stars of Destiny once again gather to protect the City-State of Jowston from the invading Kingdom of Highland, led by the demonic Luca Blight." psx="psx" >Suikoden II</name>
+
+<name id="4" release="1999" rating="m" image="hlopposing.jpg" dev="val" description="In this expansion to the smash hit 'Half-Life', you take command of a U.S. Marine that was sent to dispose of the scientists of Black Mesa" win="win">Half-Life: Opposing Force</name>
+
+<name id="1" release="1995" rating="t" image="souledge.jpg" dev="sou" description="Take control of 1 of 11 characters in their quest to find the soul edge - the most powerful weapon in the world" arc="arc" psx="psx">Soul Edge</name>
+
+<name id="3" release="1998" rating="e" image="banjo.jpg" dev="rar" description="You play as Banjo the bear with his trusty sidekick Kazooie as you rescue your sister Tootie from the evil Gruntilda. Gruntilda wants to use her cloning machine to make herself pretty and give Tootie her ugliness." n64="n64">Banjo Kazooie</name>
+
+<name id="5" release="1997" rating="t" image="fftactics.gif" dev="squ" description="In this turn-based strategy game, you play as Ramza, who is trying to wiggle his way through political drama and escape his own death." psx="psx">Final Fantasy Tactics</name>
+
+<name id="3" release="1998" rating="e" image="oot.jpg" dev="nin" description="The Legend of Zelda: The Ocarina of Time has in multiple 'Greatest Game of All Time' lists over the past two decades. In this game, you play as Link as he travels throughout the fictional land of Hyrule. The overall objective is to stop the Evil Gerudo King Ganondorf from obtaining the Triforce: a powerful items that will grant it's collector any wish they desire. Collect weapons, defeat powerful foes, solve puzzles, and travel through time as you rescue Hyrule's sages that will aid you in defeating Ganondorf." n64="n64">Ocarina of Time</name>
+
+</game>
+
+
+
+<advancements>
+<known_for enhance="1" image="3d.png">Enhanced 3D Graphics</known_for>
+<known_for enhance="2" image="lighting.jpg">Advanced Lighting</known_for>
+<known_for enhance="3" image="freeroam.jpg">Free-Roaming Environment</known_for>
+<known_for enhance="4" image="fps.png">High-Framerate Capability</known_for>
+<known_for enhance="5" image="strat.jpg">Strategy Simulation</known_for>
+</advancements>
+
+<release year="1990">1990</release>
+<release year="1991">1991</release>
+<release year="1992">1992</release>
+<release year="1993">1993</release>
+<release year="1994">1994</release>
+<release year="1995">1995</release>
+<release year="1996">1996</release>
+<release year="1997">1997</release>
+<release year="1998">1998</release>
+<release year="1999">1999</release>
+
+<dev id="id" logo="idsoft.png">ID Software</dev>
+<dev id="nin" logo="ninten.png">Nintendo</dev>
+<dev id="rar" logo="rare.jpg">Rareware</dev>
+<dev id="epi" logo="epic.png">Epic Games</dev>
+<dev id="am2" logo="segaam2.jpg">Sega AM2</dev>
+<dev id="cor" logo="core.jpg">Core Design</dev>
+<dev id="val" logo="valve.jpg">Valve Software</dev>
+<dev id="ori" logo="origin.jpg">Origin Systems</dev>
+<dev id="bio" logo="bioware.jpg">Bioware</dev>
+<dev id="squ" logo="squaresoft.jpg">Square</dev>
+<dev id="kon" logo="konami.jpg">Konami</dev>
+<dev id="act" logo="activision.jpg">Activision</dev>
+<dev id="sou" logo="psoul.jpg">Project Soul</dev>
+<dev id="bli" logo="blizz.jpg">Blizzard Entertainment</dev>
+<dev id="bul" logo="bullfrog.jpg">Bullfrog Productions</dev>
+
+
+<esrb>
+<rating id="e">E for Everyone</rating>
+<rating id="e10"> E-10+ for Ages 10 and Up </rating>
+<rating id="t">T for Teen</rating>
+<rating id="m">M for Mature Audiences</rating>
+</esrb>
+
+<system id="arc" logo="arcade.jpg">Arcade</system>
+<system id="dos" logo="dos.jpg">MS-DOS</system>
+<system id="dre" logo="dreamcast.jpg">Sega Dreamcast</system>
+<system id="gen" logo="genesis.jpg">Sega Genesis</system>
+<system id="n64" logo="n64.jpg">Nintendo 64</system>
+<system id="psx" logo="psx.jpg">Playstation</system>
+<system id="sat" logo="sat.jpg">Sega Saturn</system>
+<system id="snes" logo="snes.jpg">Super Nintnedo</system>
+<system id="win" logo="win95.png">Microsoft Windows</system>
+<system id="s32" logo="sega32x.jpg">Sega 32X</system>
+<system id="scd" logo="segacd.jpg">Sega CD</system>
+
+
+
+
+</root>
