@@ -1,0 +1,207 @@
+<html>
+
+<head> 
+
+<title> Final Fantasy Characters - February 2017 </title>
+<link href="https://fonts.googleapis.com/css?family=Carter+One|Roboto" rel="stylesheet">
+
+<style>
+
+html {
+font-family: Roboto, sans-serif;
+background-color: rgb(221,221,218)
+}
+
+header {
+background-color: rgba(255,51,51,.5);
+border-radius: 10px;
+}
+
+h1 {
+text-align: center;
+font-size: 2em;
+font-family: "Carter One", sans-serif;
+letter-spacing: 2px;
+}
+
+p {
+text-align: center;
+font-size: 1.5em;
+}
+
+
+img {
+width: 30%;
+height: auto;
+}
+
+#display {
+ -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	float: left;
+	
+	}
+	
+button {
+
+margin-bottom: 1%;
+height: 4%;
+width: auto;
+horizontal-align: center;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 10px;
+
+}
+
+button:hover {
+
+	box-shadow: 2px 2px 7px #000;
+}
+
+#button {
+border-bottom: 2px gray solid;
+border-radius: 10px;
+}
+
+#img {
+width: 30%;
+height: auto;
+
+}
+
+
+</style>
+</head>
+
+<body>
+<header>
+<h1> List of Final Fantasy Characters from 1 through 6 </h1>
+
+<p> Each button represents a final fantasy game. Click on one to reveal which characters are in the corresponding game. </p>						
+
+	<div id="button">
+	<button id="ff1"> Final Fantasy 1 </button> 
+	<button id="ff2"> Final Fantasy 2 </button> 
+	<button id="ff3"> Final Fantasy 3 </button> 
+	<button id="ff4"> Final Fantasy 4 </button> 
+	<button id="ff5"> Final Fantasy 5 </button> 
+	<button id="ff6"> Final Fantasy 6 </button> 
+	</div> 
+	
+</header> 
+
+
+
+<script>
+
+function audio1() {
+document.getElementById('fanfare').innerHTML = "<audio controls> <source src='ff1.wav' type='audio/wav'>"
+}
+
+
+
+<!-- Final Fantasy I -->
+document.getElementById("ff1").onmouseover = function() {imageOne()}
+
+
+<!-- This function brings up an image before clicking on a button -->
+function imageOne() {
+document.getElementById("image").innerHTML = "<img src='http://vignette3.wikia.nocookie.net/finalfantasy/images/c/c1/Alternative_Logo_FFI.jpg/revision/latest?cb=20090507131619'>"
+}
+
+document.getElementById("ff1").onclick = function() {audio1()}
+document.getElementById("ff1").onclick = function() {final1()}
+<!-- This function brings up all the characters in the game. Images are absolute linked via FFRK's official website -->
+function final1() {
+document.getElementById("image").innerHTML = "<img src='http://vignette3.wikia.nocookie.net/finalfantasy/images/c/c1/Alternative_Logo_FFI.jpg/revision/latest?cb=20090507131619'>";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/bd80ad83-61a1-3907-b2b2-1490bbfde556.png'> Warrior  <br>  <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/d8dcb178-f217-3374-aae2-72119471a11a.png'> Garland <br>    <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/e50460ad-ffdf-3501-82ca-2bb382209538.png'> Sarah <br>  <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/4a08b723-b4cf-34ad-9def-c8463e59f857.png'> Wol <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/76b34ff1-e900-3bf2-9a55-2e3ae09b178e.png'> Echo <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/8f0909a1-3cc4-3a03-bf88-7ed573b5542c.png'> Master <br>  <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/d65e90da-cc40-35b7-9162-3a7a86acf2e9.png'> Matoya ";
+
+}
+
+
+<!-- Final Fantasy II -->
+document.getElementById("ff2").onmouseover = function() {imageTwo()}
+
+function imageTwo() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/c/c1/Fflogo-2-new.jpg/revision/latest/zoom-crop/width/480/height/480?cb=20100419211420'>";
+}
+
+document.getElementById("ff2").onclick = function() {final2()}
+function final2() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/c/c1/Fflogo-2-new.jpg/revision/latest/zoom-crop/width/480/height/480?cb=20100419211420'>";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/fa7ca780-fd93-3418-920f-6a63825d8917.png'> Firion <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/c483897a-6ec4-3566-8f4f-6bdb3c5d4a0c.png'> Maria <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/fd3857e7-ee0d-3d8d-bc55-5c04b3594bf4.png'> Guy <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/82207e4c-ab41-37cd-a21f-42aa5fae78cd.png'> Leon <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/428d1805-c547-38ca-98be-de4d555575de.png'> Minwu <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/197efdcc-60b6-3199-a811-d633c377be11.png'> Leila <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/2e4410c8-87f6-3912-9e6a-d72f19498701.png'> Ricard <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/ed480fc0-0f79-3ea8-94d9-ce90b27a9d57.png'> Josef ";
+
+}
+
+
+<!-- Final Fantasy III -->
+document.getElementById("ff3").onmouseover = function() {imageThree()}
+
+function imageThree() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/9/9a/Ff3-DSlogo.png/revision/latest?cb=20100805044558' />";
+}
+
+
+document.getElementById("ff3").onclick = function() {final3()}
+function final3() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/9/9a/Ff3-DSlogo.png/revision/latest?cb=20100805044558' />";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/3b75b327-c2cc-373f-bfeb-e85349f51726.png'> Luneth <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/d746e914-c1dc-3c0c-a242-fbe845eddbff.png'> Arc <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/f3e5cc49-8703-3763-bf1b-c14fb5a65dab.png'> Refia <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/a97dd2b3-6a8d-3afe-ab19-9ad8d47b818c.png'> Ingus <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/893f44f0-a450-3022-a3bd-f38e07b81135.png'> Desch  <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/9531d365-e421-30b1-a9d2-c645b7cc94f8.png'> Onion Knight";
+
+}  
+
+
+<!-- Final Fantasy IV -->
+document.getElementById("ff4").onmouseover = function() {imageFour()}
+
+function imageFour() {
+document.getElementById("image").innerHTML = "<img src='http://www.droid-life.com/wp-content/uploads/2013/06/ff4.jpg' />";
+}
+
+
+document.getElementById("ff4").onclick = function() {final4()}
+function final4() {
+document.getElementById("image").innerHTML = "<img src='http://www.droid-life.com/wp-content/uploads/2013/06/ff4.jpg' />";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/0b886e88-0015-31da-addf-17bfc14ebbbe.png'> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/ade118ec-8a45-3f7a-8328-f9f1e6503396.png'> Cecil <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/1a0dbcd1-cc17-3b38-9bc2-4eb97294a265.png'> Kain <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/9930bebc-05b9-35d3-934f-eb34e8f50877.png'> Rydia <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/9930bebc-05b9-35d3-934f-eb34e8f50877.png'> Rosa <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/c8d58a55-f00a-3cc4-a324-ae83fafc4f6b.png'> Edward <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/a6c98352-ea9a-3693-aefe-c95fde878b29.png'> Yang <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/6a608a05-46d5-3b76-b40a-d8ea16eda4f4.png'> Palom <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/66b7aed3-830a-305b-a479-eacf4c12054e.png'> Porom <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/92bd27ff-0d8c-32c9-9c49-10bc03dca6e9.png'> Tellah <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/e8fe96c3-86f5-3c6c-8b43-6922ac7817f3.png'> Edge <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/837f8aee-45c3-3abf-98d4-b951f1209e83.png'> Fusoya <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/f7dbce70-5248-3f2a-93aa-561197e5f063.png'> Golbez <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/005be428-ba6f-3a33-9095-545033ac5bf5.png'> Cid"; 
+
+}
+
+
+<!-- Final Fantasy V -->
+document.getElementById("ff5").onmouseover = function() {imageFive()}
+
+function imageFive(){
+document.getElementById("image").innerHTML = "<img src='https://images-na.ssl-images-amazon.com/images/I/61k2O%2Bzte4L.jpg' />";
+}
+
+document.getElementById("ff5").onclick = function() {final5()}
+function final5() {
+document.getElementById("image").innerHTML = "<img src='https://images-na.ssl-images-amazon.com/images/I/61k2O%2Bzte4L.jpg' />";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/9534797d-a5ef-39cb-b8ca-3d3588e87087.png'> Lenna <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/a1332e6b-a4d0-363a-b228-f9551a01f6c7.png'> Galuf <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/6da4ab33-dcdb-370b-9986-4ecf947722a4.png'> Gilgamesh <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/4aa65ca7-b4b1-3334-a5c8-e035431d81ee.png'> Bartz <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/7449ad6b-a6bf-3918-a60f-0fa58a9d9f1e.png'> Faris <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/5e120e9a-1dd6-3a4d-90a9-a4ef242c659a.png'> Dorgann <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/7b4e9def-be74-3b8f-821f-02d9922d503e.png'> Exdeath <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/2fcfecd0-eae4-3a5e-8ec6-403f47edf6e9.png'> Krile";
+}
+
+
+<!-- Final Fantasy VI -->
+document.getElementById("ff6").onmouseover = function() {imageSix()}
+
+function imageSix() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/4/49/Ff6-logo.jpg/revision/latest?cb=20120805195050' />";
+}
+
+document.getElementById("ff6").onclick = function() {final6()}
+function final6() {
+document.getElementById("image").innerHTML = "<img src='http://vignette4.wikia.nocookie.net/finalfantasy/images/4/49/Ff6-logo.jpg/revision/latest?cb=20120805195050' />";
+document.getElementById("display").innerHTML = "<img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/6203810c-5f6d-32bd-a22e-6f3cb71fcf94.png'> Terra <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/baa24ecb-1421-3fea-8d28-416d592daa7a.png'> Locke <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/b9b1dfbc-9f48-3fdd-a214-e81c121d0e59.png'> Celes <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/02f8332d-ef81-34ce-8ba7-ac783717cc7c.png'> Mog <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/cad1f0f8-6580-38bd-86a5-4044359a5c9b.png'> Edgar <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/ae9ab531-9288-3dda-becb-d9c08fdad8ff.png'> Sabin <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/7fd96ce8-96b7-3ff0-a253-155508762336.png'> Shadow <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/6e05ae82-5dbf-3e9f-aa88-bf86f7056840.png'> Cyan <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/c2c4c6a6-33bb-33b1-99e8-3aa3e5e4701d.png'> Gau <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/fefabb12-4a59-3bb6-9b0e-636ec33f2c05.png'> Setzer <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/3d342b3d-3b3a-39c5-b3eb-1d09f1839720.png'> Strago <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/510d96f2-3c70-38e1-a2c2-faa96e9d9195.png'> Relm <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/379dcb37-4874-3e89-bf77-b25e9081e219.png'> Kefka <br> <img src='https://cdn-image.pf.dena.com/b0bf411b1e59ff824059847b9384dcc0134c5eba/1/654e6f39-84b8-371d-add8-756285dc5994.png'> Leo"; 
+}
+
+</script> 
+
+<p id="display"> </p> 
+
+<p id="image"> </p> 
+<p id="fanfare"> </p>
+
+</body>
+
+</html>

@@ -37,6 +37,12 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+	font-size: 1.4em;
+	font-style: italic;
+}
+
 p {
 	color: #2B3E42;
 }
@@ -65,10 +71,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	text-align: center;
-	
-
-	
+	text-align: center;	
 }
 
 nav ul li p {
@@ -88,13 +91,10 @@ header {
 	width: 100%;
 }
 
-header h1 {
+header h1, header h2, header h3 {
 	text-align: center; /* Placeholder center until I know I need it on other h1 tags */
 }
 
-header h2 {
-	text-align: center;
-}
 
 header p {
 	font-size: 1.5em;

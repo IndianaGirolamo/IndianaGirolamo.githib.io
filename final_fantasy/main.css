@@ -1,0 +1,71 @@
+html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgb(221,221,218);
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 50%;
+    }
+    
+    header {
+    background-color: rgba(255,51,51,.5);
+    border-radius: 10px;
+    border-bottom: 2px gray solid;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    }
+    
+    h1 {
+    font-size: 2em;
+    font-family: "Carter One", Courier, monospace;
+    letter-spacing: .1em;
+    }
+    
+    p {
+    font-size: 1.4em;
+    }
+    
+    #display {
+        float: left;
+        padding-top: 1%; 
+    }
+
+    #image {
+        float: right;
+        padding-top: 1%;
+        width: 500px;
+    }
+        
+    a:hover {
+        box-shadow: 4px 4px 10px #000;
+        font-style: italic;
+    }
+    
+    a {
+        font: 1rem Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        border-radius: 10px;
+        border: 4px #EEEEEE solid;
+        margin: 0 1%;
+        font-weight: bolder;
+    
+    }
+    
+    #button {
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #sideImage {
+        width: 400px;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
