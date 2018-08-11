@@ -1,4 +1,27 @@
 html {
+    width: 100%;
+    background-color:RGBA(173, 216, 230, 1)
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h1, p {
+    font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+}
+
+#container {
+    text-align: left;
     width: 1200px;
     margin: 0 auto;
 }
